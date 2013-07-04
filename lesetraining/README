@@ -1,0 +1,5 @@
+start with roo shell, do steps as described here:
+http://www.springsource.org/spring-roo and log.roo
+do not run "mvn eclipse:eclipse", just import project with maven
+then it should work in roo shell
+run as mvn gwt:run or using "run as web app"

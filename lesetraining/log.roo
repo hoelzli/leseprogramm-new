@@ -1,0 +1,23 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-07-04 23:07:11
+project --topLevelPackage ch.dreamweb --projectName lesetraining --java 7 --packaging WAR
+jpa setup --provider DATANUCLEUS --database GOOGLE_APP_ENGINE --applicationId leseprogramm-new
+persistence setup --provider DATANUCLEUS --database GOOGLE_APP_ENGINE --applicationId leseprogramm
+entity jpa --class ~.domain.Setting --testAutomatically --serializable
+field string --fieldName login
+finder add --finderName findSettingsByLogin
+web mvc setup
+web mvc all --package ~.web
+selenium test --controller ~.web.SettingController
+perform tests
+perform tests
+perform clean
+perform tests
+web gwt setup
+web gwt all --proxyPackage ~.client.proxy --requestPackage ~.client.request
+perform tests
+web gwt gae update
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-07-04 23:36:35
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-07-04 23:38:08
+web gwt gae update
+web gwt setup 
