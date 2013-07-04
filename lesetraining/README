@@ -3,3 +3,4 @@ http://www.springsource.org/spring-roo and log.roo
 do not run "mvn eclipse:eclipse", just import project with maven
 then it should work in roo shell
 run as mvn gwt:run or using "run as web app"
+make sure you have unzipped C:\Users\mkessler\.m2\repository\com\google\appengine\appengine-java-sdk\1.8.1

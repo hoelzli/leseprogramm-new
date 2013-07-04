@@ -13,7 +13,7 @@
         <roo.version>1.2.3.RELEASE</roo.version>
         <slf4j.version>1.7.2</slf4j.version>
         <spring.version>3.2.0.RELEASE</spring.version>
-    <gae.home>${user.home}/.m2/repository/com/google/appengine/appengine-java-sdk/1.7.4/appengine-java-sdk-1.7.4</gae.home>
+    <gae.home>${user.home}/.m2/repository/com/google/appengine/appengine-java-sdk/1.8.1/appengine-java-sdk-1.8.1</gae.home>
     </properties>
     <repositories>
         <repository>
@@ -168,24 +168,24 @@
         <dependency>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-api-1.0-sdk</artifactId>
-            <version>1.7.4</version>
+            <version>1.8.1</version>
         </dependency>
         <dependency>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-testing</artifactId>
-            <version>1.7.4</version>
+            <version>1.8.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-api-stubs</artifactId>
-            <version>1.7.4</version>
+            <version>1.8.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-api-labs</artifactId>
-            <version>1.7.4</version>
+            <version>1.8.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -519,7 +519,7 @@
         <plugin>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-maven-plugin</artifactId>
-                <version>1.7.4</version>
+                <version>1.8.1</version>
             </plugin>
             <plugin>
                 <groupId>org.datanucleus</groupId>
@@ -589,7 +589,7 @@
                     <server>com.google.appengine.tools.development.gwt.AppEngineLauncher</server>
                     <extraJvmArgs>"-javaagent:${gae.home}/lib/agent/appengine-agent.jar" -Xmx1024m</extraJvmArgs>
                     <copyWebapp>true</copyWebapp>
-                    <appEngineVersion>1.7.4</appEngineVersion>
+                    <appEngineVersion>1.8.1</appEngineVersion>
                 </configuration>
                 <executions>
                     <execution>
