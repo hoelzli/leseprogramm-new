@@ -3,4 +3,7 @@ http://www.springsource.org/spring-roo and log.roo
 do not run "mvn eclipse:eclipse", just import project with maven
 then it should work in roo shell
 run as mvn gwt:run or using "run as web app"
+ignore error "Plugin execution not covered by lifecycle configuration: org.codehaus.mojo:exec-maven-plugin:1.2:exec (execution: default, phase: process-classes)"
 make sure you have unzipped C:\Users\mkessler\.m2\repository\com\google\appengine\appengine-java-sdk\1.8.1
+make sure you have added jdk to eclipse.ini/sts.ini: -vm C:\Program Files\Java\jdk1.7.0_01\bin\javaw.exe
+try it on leseprogramm-new.appspot.com/ApplicationScaffold.html
