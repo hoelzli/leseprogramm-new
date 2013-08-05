@@ -24,13 +24,337 @@ privileged aspect SettingDataOnDemand_Roo_DataOnDemand {
     
     public Setting SettingDataOnDemand.getNewTransientSetting(int index) {
         Setting obj = new Setting();
+        setEnabletest(obj, index);
+        setEnabletraining(obj, index);
         setLogin(obj, index);
+        setPassword(obj, index);
+        setSchoolclass(obj, index);
+        setSoundfiletype(obj, index);
+        setT1done(obj, index);
+        setT1highestdaylevel(obj, index);
+        setT1highestdaystep(obj, index);
+        setT1highestlevel(obj, index);
+        setT1higheststep(obj, index);
+        setT1level(obj, index);
+        setT1prestime(obj, index);
+        setT1step(obj, index);
+        setT1stepsperlevel(obj, index);
+        setT1tottime(obj, index);
+        setT2done(obj, index);
+        setT2highestdaylevel(obj, index);
+        setT2highestdaystep(obj, index);
+        setT2highestlevel(obj, index);
+        setT2higheststep(obj, index);
+        setT2level(obj, index);
+        setT2prestime(obj, index);
+        setT2step(obj, index);
+        setT2stepsperlevel(obj, index);
+        setT2tottime(obj, index);
+        setT3done(obj, index);
+        setT3highestdaylevel(obj, index);
+        setT3highestdaystep(obj, index);
+        setT3highestlevel(obj, index);
+        setT3higheststep(obj, index);
+        setT3level(obj, index);
+        setT3prestime(obj, index);
+        setT3step(obj, index);
+        setT3stepsperlevel(obj, index);
+        setT3tottime(obj, index);
+        setT4done(obj, index);
+        setT4highestdaylevel(obj, index);
+        setT4highestdaystep(obj, index);
+        setT4highestlevel(obj, index);
+        setT4higheststep(obj, index);
+        setT4level(obj, index);
+        setT4prestime(obj, index);
+        setT4step(obj, index);
+        setT4stepsperlevel(obj, index);
+        setT4tottime(obj, index);
+        setTest1record(obj, index);
+        setTest2record(obj, index);
+        setTest3record(obj, index);
+        setTest4record(obj, index);
+        setTest5record(obj, index);
+        setTest6record(obj, index);
+        setTestday(obj, index);
+        setTestnumber(obj, index);
+        setTestround(obj, index);
         return obj;
+    }
+    
+    public void SettingDataOnDemand.setEnabletest(Setting obj, int index) {
+        Boolean enabletest = Boolean.TRUE;
+        obj.setEnabletest(enabletest);
+    }
+    
+    public void SettingDataOnDemand.setEnabletraining(Setting obj, int index) {
+        Boolean enabletraining = Boolean.TRUE;
+        obj.setEnabletraining(enabletraining);
     }
     
     public void SettingDataOnDemand.setLogin(Setting obj, int index) {
         String login = "login_" + index;
         obj.setLogin(login);
+    }
+    
+    public void SettingDataOnDemand.setPassword(Setting obj, int index) {
+        String password = "password_" + index;
+        obj.setPassword(password);
+    }
+    
+    public void SettingDataOnDemand.setSchoolclass(Setting obj, int index) {
+        String schoolclass = "schoolclass_" + index;
+        obj.setSchoolclass(schoolclass);
+    }
+    
+    public void SettingDataOnDemand.setSoundfiletype(Setting obj, int index) {
+        String soundfiletype = "soundfiletype_" + index;
+        obj.setSoundfiletype(soundfiletype);
+    }
+    
+    public void SettingDataOnDemand.setT1done(Setting obj, int index) {
+        Boolean t1done = Boolean.TRUE;
+        obj.setT1done(t1done);
+    }
+    
+    public void SettingDataOnDemand.setT1highestdaylevel(Setting obj, int index) {
+        Integer t1highestdaylevel = new Integer(index);
+        obj.setT1highestdaylevel(t1highestdaylevel);
+    }
+    
+    public void SettingDataOnDemand.setT1highestdaystep(Setting obj, int index) {
+        Integer t1highestdaystep = new Integer(index);
+        obj.setT1highestdaystep(t1highestdaystep);
+    }
+    
+    public void SettingDataOnDemand.setT1highestlevel(Setting obj, int index) {
+        Integer t1highestlevel = new Integer(index);
+        obj.setT1highestlevel(t1highestlevel);
+    }
+    
+    public void SettingDataOnDemand.setT1higheststep(Setting obj, int index) {
+        Integer t1higheststep = new Integer(index);
+        obj.setT1higheststep(t1higheststep);
+    }
+    
+    public void SettingDataOnDemand.setT1level(Setting obj, int index) {
+        Integer t1level = new Integer(index);
+        obj.setT1level(t1level);
+    }
+    
+    public void SettingDataOnDemand.setT1prestime(Setting obj, int index) {
+        Integer t1prestime = new Integer(index);
+        obj.setT1prestime(t1prestime);
+    }
+    
+    public void SettingDataOnDemand.setT1step(Setting obj, int index) {
+        Integer t1step = new Integer(index);
+        obj.setT1step(t1step);
+    }
+    
+    public void SettingDataOnDemand.setT1stepsperlevel(Setting obj, int index) {
+        Integer t1stepsperlevel = new Integer(index);
+        obj.setT1stepsperlevel(t1stepsperlevel);
+    }
+    
+    public void SettingDataOnDemand.setT1tottime(Setting obj, int index) {
+        Integer t1tottime = new Integer(index);
+        obj.setT1tottime(t1tottime);
+    }
+    
+    public void SettingDataOnDemand.setT2done(Setting obj, int index) {
+        Boolean t2done = Boolean.TRUE;
+        obj.setT2done(t2done);
+    }
+    
+    public void SettingDataOnDemand.setT2highestdaylevel(Setting obj, int index) {
+        Integer t2highestdaylevel = new Integer(index);
+        obj.setT2highestdaylevel(t2highestdaylevel);
+    }
+    
+    public void SettingDataOnDemand.setT2highestdaystep(Setting obj, int index) {
+        Integer t2highestdaystep = new Integer(index);
+        obj.setT2highestdaystep(t2highestdaystep);
+    }
+    
+    public void SettingDataOnDemand.setT2highestlevel(Setting obj, int index) {
+        Integer t2highestlevel = new Integer(index);
+        obj.setT2highestlevel(t2highestlevel);
+    }
+    
+    public void SettingDataOnDemand.setT2higheststep(Setting obj, int index) {
+        Integer t2higheststep = new Integer(index);
+        obj.setT2higheststep(t2higheststep);
+    }
+    
+    public void SettingDataOnDemand.setT2level(Setting obj, int index) {
+        Integer t2level = new Integer(index);
+        obj.setT2level(t2level);
+    }
+    
+    public void SettingDataOnDemand.setT2prestime(Setting obj, int index) {
+        Integer t2prestime = new Integer(index);
+        obj.setT2prestime(t2prestime);
+    }
+    
+    public void SettingDataOnDemand.setT2step(Setting obj, int index) {
+        Integer t2step = new Integer(index);
+        obj.setT2step(t2step);
+    }
+    
+    public void SettingDataOnDemand.setT2stepsperlevel(Setting obj, int index) {
+        Integer t2stepsperlevel = new Integer(index);
+        obj.setT2stepsperlevel(t2stepsperlevel);
+    }
+    
+    public void SettingDataOnDemand.setT2tottime(Setting obj, int index) {
+        Integer t2tottime = new Integer(index);
+        obj.setT2tottime(t2tottime);
+    }
+    
+    public void SettingDataOnDemand.setT3done(Setting obj, int index) {
+        Boolean t3done = Boolean.TRUE;
+        obj.setT3done(t3done);
+    }
+    
+    public void SettingDataOnDemand.setT3highestdaylevel(Setting obj, int index) {
+        Integer t3highestdaylevel = new Integer(index);
+        obj.setT3highestdaylevel(t3highestdaylevel);
+    }
+    
+    public void SettingDataOnDemand.setT3highestdaystep(Setting obj, int index) {
+        Integer t3highestdaystep = new Integer(index);
+        obj.setT3highestdaystep(t3highestdaystep);
+    }
+    
+    public void SettingDataOnDemand.setT3highestlevel(Setting obj, int index) {
+        Integer t3highestlevel = new Integer(index);
+        obj.setT3highestlevel(t3highestlevel);
+    }
+    
+    public void SettingDataOnDemand.setT3higheststep(Setting obj, int index) {
+        Integer t3higheststep = new Integer(index);
+        obj.setT3higheststep(t3higheststep);
+    }
+    
+    public void SettingDataOnDemand.setT3level(Setting obj, int index) {
+        Integer t3level = new Integer(index);
+        obj.setT3level(t3level);
+    }
+    
+    public void SettingDataOnDemand.setT3prestime(Setting obj, int index) {
+        Integer t3prestime = new Integer(index);
+        obj.setT3prestime(t3prestime);
+    }
+    
+    public void SettingDataOnDemand.setT3step(Setting obj, int index) {
+        Integer t3step = new Integer(index);
+        obj.setT3step(t3step);
+    }
+    
+    public void SettingDataOnDemand.setT3stepsperlevel(Setting obj, int index) {
+        Integer t3stepsperlevel = new Integer(index);
+        obj.setT3stepsperlevel(t3stepsperlevel);
+    }
+    
+    public void SettingDataOnDemand.setT3tottime(Setting obj, int index) {
+        Integer t3tottime = new Integer(index);
+        obj.setT3tottime(t3tottime);
+    }
+    
+    public void SettingDataOnDemand.setT4done(Setting obj, int index) {
+        Boolean t4done = Boolean.TRUE;
+        obj.setT4done(t4done);
+    }
+    
+    public void SettingDataOnDemand.setT4highestdaylevel(Setting obj, int index) {
+        Integer t4highestdaylevel = new Integer(index);
+        obj.setT4highestdaylevel(t4highestdaylevel);
+    }
+    
+    public void SettingDataOnDemand.setT4highestdaystep(Setting obj, int index) {
+        Integer t4highestdaystep = new Integer(index);
+        obj.setT4highestdaystep(t4highestdaystep);
+    }
+    
+    public void SettingDataOnDemand.setT4highestlevel(Setting obj, int index) {
+        Integer t4highestlevel = new Integer(index);
+        obj.setT4highestlevel(t4highestlevel);
+    }
+    
+    public void SettingDataOnDemand.setT4higheststep(Setting obj, int index) {
+        Integer t4higheststep = new Integer(index);
+        obj.setT4higheststep(t4higheststep);
+    }
+    
+    public void SettingDataOnDemand.setT4level(Setting obj, int index) {
+        Integer t4level = new Integer(index);
+        obj.setT4level(t4level);
+    }
+    
+    public void SettingDataOnDemand.setT4prestime(Setting obj, int index) {
+        Integer t4prestime = new Integer(index);
+        obj.setT4prestime(t4prestime);
+    }
+    
+    public void SettingDataOnDemand.setT4step(Setting obj, int index) {
+        Integer t4step = new Integer(index);
+        obj.setT4step(t4step);
+    }
+    
+    public void SettingDataOnDemand.setT4stepsperlevel(Setting obj, int index) {
+        Integer t4stepsperlevel = new Integer(index);
+        obj.setT4stepsperlevel(t4stepsperlevel);
+    }
+    
+    public void SettingDataOnDemand.setT4tottime(Setting obj, int index) {
+        Integer t4tottime = new Integer(index);
+        obj.setT4tottime(t4tottime);
+    }
+    
+    public void SettingDataOnDemand.setTest1record(Setting obj, int index) {
+        Integer test1record = new Integer(index);
+        obj.setTest1record(test1record);
+    }
+    
+    public void SettingDataOnDemand.setTest2record(Setting obj, int index) {
+        Integer test2record = new Integer(index);
+        obj.setTest2record(test2record);
+    }
+    
+    public void SettingDataOnDemand.setTest3record(Setting obj, int index) {
+        Integer test3record = new Integer(index);
+        obj.setTest3record(test3record);
+    }
+    
+    public void SettingDataOnDemand.setTest4record(Setting obj, int index) {
+        Integer test4record = new Integer(index);
+        obj.setTest4record(test4record);
+    }
+    
+    public void SettingDataOnDemand.setTest5record(Setting obj, int index) {
+        Integer test5record = new Integer(index);
+        obj.setTest5record(test5record);
+    }
+    
+    public void SettingDataOnDemand.setTest6record(Setting obj, int index) {
+        Integer test6record = new Integer(index);
+        obj.setTest6record(test6record);
+    }
+    
+    public void SettingDataOnDemand.setTestday(Setting obj, int index) {
+        Integer testday = new Integer(index);
+        obj.setTestday(testday);
+    }
+    
+    public void SettingDataOnDemand.setTestnumber(Setting obj, int index) {
+        Integer testnumber = new Integer(index);
+        obj.setTestnumber(testnumber);
+    }
+    
+    public void SettingDataOnDemand.setTestround(Setting obj, int index) {
+        Integer testround = new Integer(index);
+        obj.setTestround(testround);
     }
     
     public Setting SettingDataOnDemand.getSpecificSetting(int index) {

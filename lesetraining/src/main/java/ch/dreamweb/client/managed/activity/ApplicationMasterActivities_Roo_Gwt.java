@@ -6,7 +6,10 @@ import ch.dreamweb.client.managed.request.ApplicationEntityTypesProcessor;
 import ch.dreamweb.client.managed.request.ApplicationRequestFactory;
 import ch.dreamweb.client.managed.ui.SettingListView;
 import ch.dreamweb.client.managed.ui.SettingMobileListView;
+import ch.dreamweb.client.managed.ui.StatisticListView;
+import ch.dreamweb.client.managed.ui.StatisticMobileListView;
 import ch.dreamweb.client.proxy.SettingProxy;
+import ch.dreamweb.client.proxy.StatisticProxy;
 import ch.dreamweb.client.scaffold.ScaffoldApp;
 import ch.dreamweb.client.scaffold.place.ProxyListPlace;
 import com.google.gwt.activity.shared.Activity;
@@ -31,6 +34,11 @@ public abstract class ApplicationMasterActivities_Roo_Gwt implements ActivityMap
             @Override
             public void handleSetting(SettingProxy isNull) {
                 setResult(new SettingListActivity(requests, ScaffoldApp.isMobile() ? SettingMobileListView.instance() : SettingListView.instance(), placeController));
+            }
+
+            @Override
+            public void handleStatistic(StatisticProxy isNull) {
+                setResult(new StatisticListActivity(requests, ScaffoldApp.isMobile() ? StatisticMobileListView.instance() : StatisticListView.instance(), placeController));
             }
         }.process(listPlace.getProxyClass());
     }

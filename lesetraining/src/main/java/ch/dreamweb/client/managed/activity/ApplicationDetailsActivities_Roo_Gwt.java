@@ -5,6 +5,7 @@ package ch.dreamweb.client.managed.activity;
 import ch.dreamweb.client.managed.request.ApplicationEntityTypesProcessor;
 import ch.dreamweb.client.managed.request.ApplicationRequestFactory;
 import ch.dreamweb.client.proxy.SettingProxy;
+import ch.dreamweb.client.proxy.StatisticProxy;
 import ch.dreamweb.client.scaffold.place.ProxyPlace;
 import com.google.gwt.activity.shared.Activity;
 import com.google.gwt.activity.shared.ActivityMapper;
@@ -28,6 +29,11 @@ public abstract class ApplicationDetailsActivities_Roo_Gwt implements ActivityMa
             @Override
             public void handleSetting(SettingProxy proxy) {
                 setResult(new SettingActivitiesMapper(requests, placeController).getActivity(proxyPlace));
+            }
+
+            @Override
+            public void handleStatistic(StatisticProxy proxy) {
+                setResult(new StatisticActivitiesMapper(requests, placeController).getActivity(proxyPlace));
             }
         }.process(proxyPlace.getProxyClass());
     }

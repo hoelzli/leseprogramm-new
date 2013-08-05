@@ -5,6 +5,11 @@
     <page:list id="pl_ch_dreamweb_domain_Setting" items="${settings}" z="OukPKkEc4yyvI8c2yZUKbnXfZ88=">
         <table:table data="${settings}" id="l_ch_dreamweb_domain_Setting" path="/settings" z="RukBGn3f6DyLfrtzCqrTp2JpmiU=">
             <table:column id="c_ch_dreamweb_domain_Setting_login" property="login" z="zB3zL1e4104a4/DT+j+QZtYkVzQ="/>
+            <table:column id="c_ch_dreamweb_domain_Setting_password" property="password" z="glco3RpPn2EtZjVvW9YWejbRAHs="/>
+            <table:column id="c_ch_dreamweb_domain_Setting_testday" property="testday" z="3MAfyN85IWkUwzLrNpV8ENm4NLU="/>
+            <table:column id="c_ch_dreamweb_domain_Setting_testnumber" property="testnumber" z="dWINVl/y8FkOMyj5+kgXYsWNWy0="/>
+            <table:column id="c_ch_dreamweb_domain_Setting_testround" property="testround" z="OLqlUxVT+t73HkG0KqSECnpstDs="/>
+            <table:column id="c_ch_dreamweb_domain_Setting_schoolclass" property="schoolclass" z="RTJU2RWJK9FN6UAmX0xZc8rb5E4="/>
         </table:table>
     </page:list>
 </div>

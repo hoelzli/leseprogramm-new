@@ -13,3 +13,31 @@ web gwt setup
 web gwt all --proxyPackage ~.client.proxy --requestPackage ~.client.request
 perform tests
 web gwt gae update
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-08-05 23:03:34
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-08-05 23:11:06
+hint
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-08-05 23:20:47
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-08-05 23:27:35
+web mvc all --package ~.web
+web gwt all --proxyPackage ~.client.proxy --requestPackage ~.client.request
+web gwt gae update
+web mvc all --package ~.web
+web gwt all --proxyPackage ~.client.proxy --requestPackage ~.client.request
+entity jpa --class ~.domain.Statistic --testAutomatically --serializable
+field string --fieldName login
+finder add --finderName findStatisticsByLogin
+hint
+// [failed] field date --fieldName date --type java.util.Date
+field date --fieldName datetime --type java.util.Date
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-08-05 23:49:34
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-08-05 23:51:06
+hint
+hint
+hint
+web mvc all --package ~.web
+web gwt setup
+// [failed] web gwt all --proxyPackage ~.client.proxy --requestPackage ~.client.request
+hint
+help
+web gwt all --proxyPackage ~.client.proxy --requestPackage ~.client.request
+web mvc all --package ~.web

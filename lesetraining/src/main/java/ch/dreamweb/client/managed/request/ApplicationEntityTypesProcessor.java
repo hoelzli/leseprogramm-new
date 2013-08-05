@@ -3,6 +3,7 @@
 package ch.dreamweb.client.managed.request;
 
 import ch.dreamweb.client.proxy.SettingProxy;
+import ch.dreamweb.client.proxy.StatisticProxy;
 import com.google.web.bindery.requestfactory.shared.EntityProxy;
 import java.util.Collections;
 import java.util.HashSet;
@@ -25,12 +26,17 @@ public abstract class ApplicationEntityTypesProcessor<T> {
     public static Set<java.lang.Class<? extends com.google.web.bindery.requestfactory.shared.EntityProxy>> getAll() {
         Set<Class<? extends EntityProxy>> rtn = new HashSet<Class<? extends EntityProxy>>();
         rtn.add(SettingProxy.class);
+        rtn.add(StatisticProxy.class);
         return Collections.unmodifiableSet(rtn);
     }
 
     private static void process(ch.dreamweb.client.managed.request.ApplicationEntityTypesProcessor<?> processor, Class<?> clazz) {
         if (SettingProxy.class.equals(clazz)) {
             processor.handleSetting((SettingProxy) null);
+            return;
+        }
+        if (StatisticProxy.class.equals(clazz)) {
+            processor.handleStatistic((StatisticProxy) null);
             return;
         }
         processor.handleNonProxy(null);
@@ -41,6 +47,10 @@ public abstract class ApplicationEntityTypesProcessor<T> {
             processor.handleSetting((SettingProxy) proxy);
             return;
         }
+        if (proxy instanceof StatisticProxy) {
+            processor.handleStatistic((StatisticProxy) proxy);
+            return;
+        }
         processor.handleNonProxy(proxy);
     }
 
@@ -48,6 +58,8 @@ public abstract class ApplicationEntityTypesProcessor<T> {
     }
 
     public abstract void handleSetting(SettingProxy proxy);
+
+    public abstract void handleStatistic(StatisticProxy proxy);
 
     public T process(Class<?> clazz) {
         setResult(defaultValue);

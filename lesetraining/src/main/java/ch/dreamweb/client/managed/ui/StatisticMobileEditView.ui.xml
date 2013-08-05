@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:a="urn:import:ch.dreamweb.client.managed.ui" xmlns:d="urn:import:com.google.gwt.user.datepicker.client" xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:r="urn:import:ch.dreamweb.client.scaffold.ui">
+  <ui:style>
+    .outer {
+      padding: 10px;
+    }
+    .error {
+      padding-left: 0.5em;
+      background-color: red;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .value {
+      padding-bottom: 10px;
+    }
+  </ui:style>
+ 
+  <g:HTMLPanel debugId="boundElementHolder" styleName="{style.outer}">
+    <div class="{style.error}" ui:field="errors"/>
+    
+    <div id="login">
+            <div class="{style.label}">Login</div>
+            <div class="{style.value}">
+                <g:TextBox ui:field="login"/>
+            </div>
+        </div>
+    <div id="datetime">
+            <div class="{style.label}">Datetime</div>
+            <div class="{style.value}">
+                <d:DateBox ui:field="datetime"/>
+            </div>
+        </div>
+    <div id="trainingday">
+            <div class="{style.label}">Trainingday</div>
+            <div class="{style.value}">
+                <g:IntegerBox ui:field="trainingday"/>
+            </div>
+        </div>
+    <div id="unit">
+            <div class="{style.label}">Unit</div>
+            <div class="{style.value}">
+                <g:IntegerBox ui:field="unit"/>
+            </div>
+        </div>
+    <div id="rightexercices">
+            <div class="{style.label}">Rightexercices</div>
+            <div class="{style.value}">
+                <g:IntegerBox ui:field="rightexercices"/>
+            </div>
+        </div>
+    <div id="wrongexercices">
+            <div class="{style.label}">Wrongexercices</div>
+            <div class="{style.value}">
+                <g:IntegerBox ui:field="wrongexercices"/>
+            </div>
+        </div>
+    <div id="levelsum">
+            <div class="{style.label}">Levelsum</div>
+            <div class="{style.value}">
+                <g:IntegerBox ui:field="levelsum"/>
+            </div>
+        </div>
+    <div id="levelsumright">
+            <div class="{style.label}">Levelsumright</div>
+            <div class="{style.value}">
+                <g:IntegerBox ui:field="levelsumright"/>
+            </div>
+        </div>
+    <div id="averagelevelright">
+            <div class="{style.label}">Averagelevelright</div>
+            <div class="{style.value}">
+                <r:FloatBox ui:field="averagelevelright"/>
+            </div>
+        </div>
+    <div id="highestlevelindex">
+            <div class="{style.label}">Highestlevelindex</div>
+            <div class="{style.value}">
+                <g:IntegerBox ui:field="highestlevelindex"/>
+            </div>
+        </div>
+    <div id="stepsperlevel">
+            <div class="{style.label}">Stepsperlevel</div>
+            <div class="{style.value}">
+                <g:IntegerBox ui:field="stepsperlevel"/>
+            </div>
+        </div>
+    <div id="history">
+            <div class="{style.label}">History</div>
+            <div class="{style.value}">
+                <g:TextBox ui:field="history"/>
+            </div>
+        </div>
+
+    <g:Button ui:field="save">Save</g:Button>
+  </g:HTMLPanel>
+</ui:UiBinder>

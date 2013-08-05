@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ch_dreamweb_domain_Statistic" object="${statistic}" path="/statistics" z="uPawlT8c2+cau+r5rzxGf2Kq9p4=">
+        <field:display field="login" id="s_ch_dreamweb_domain_Statistic_login" object="${statistic}" z="I12pyZS33pceozk3Z9jQCdIUhFU="/>
+        <field:display date="true" dateTimePattern="${statistic_datetime_date_format}" field="datetime" id="s_ch_dreamweb_domain_Statistic_datetime" object="${statistic}" z="HwXXqL6RsfVPwpEGpHFxtC37iQE="/>
+        <field:display field="trainingday" id="s_ch_dreamweb_domain_Statistic_trainingday" object="${statistic}" z="YHCrfUx61BGm3eNjg379QqdaLdA="/>
+        <field:display field="unit" id="s_ch_dreamweb_domain_Statistic_unit" object="${statistic}" z="VqezMZzcEJURQuh/M0EDVgUnUCw="/>
+        <field:display field="rightexercices" id="s_ch_dreamweb_domain_Statistic_rightexercices" object="${statistic}" z="Pr6TyLCTu5OM02oXCjQLX3DYFqk="/>
+        <field:display field="wrongexercices" id="s_ch_dreamweb_domain_Statistic_wrongexercices" object="${statistic}" z="5oquuhQl31hdLAhQTHvpJgPMkCE="/>
+        <field:display field="levelsum" id="s_ch_dreamweb_domain_Statistic_levelsum" object="${statistic}" z="Ha7n2HpmWBQms/Ec2XXZ+dLFr60="/>
+        <field:display field="levelsumright" id="s_ch_dreamweb_domain_Statistic_levelsumright" object="${statistic}" z="YNxEynmZROfqjKXKhCIzl+QtcYQ="/>
+        <field:display field="averagelevelright" id="s_ch_dreamweb_domain_Statistic_averagelevelright" object="${statistic}" z="rlSG6jgAnkoL2yegiTn7zvio9k4="/>
+        <field:display field="highestlevelindex" id="s_ch_dreamweb_domain_Statistic_highestlevelindex" object="${statistic}" z="9msNs/HNIncLf+QPvBdBB57iVDg="/>
+        <field:display field="stepsperlevel" id="s_ch_dreamweb_domain_Statistic_stepsperlevel" object="${statistic}" z="ibJFx1DcaZZbIKQyWTh0xi5ccac="/>
+        <field:display field="history" id="s_ch_dreamweb_domain_Statistic_history" object="${statistic}" z="rvibYGDBZmzKkJqF7Pt5GZ8CO70="/>
+    </page:show>
+</div>

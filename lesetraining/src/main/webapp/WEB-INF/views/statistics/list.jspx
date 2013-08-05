@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ch_dreamweb_domain_Statistic" items="${statistics}" z="+MLToWgiQwtmXZP4gGXeVnSNQgA=">
+        <table:table data="${statistics}" id="l_ch_dreamweb_domain_Statistic" path="/statistics" z="6984+tOR5vnvihVmcyX6YfeaJ04=">
+            <table:column id="c_ch_dreamweb_domain_Statistic_login" property="login" z="csd4VI+l+tzRYH9C/BoTf3JZzsY="/>
+            <table:column date="true" dateTimePattern="${statistic_datetime_date_format}" id="c_ch_dreamweb_domain_Statistic_datetime" property="datetime" z="CJ2zCuqHyxl0k2My27nW3yTxN2w="/>
+            <table:column id="c_ch_dreamweb_domain_Statistic_trainingday" property="trainingday" z="J5kjM9p5fme/BlK+9ZMegO8G/kI="/>
+            <table:column id="c_ch_dreamweb_domain_Statistic_unit" property="unit" z="BZd9TRpDnrm4aFWyWntT8Zribhw="/>
+            <table:column id="c_ch_dreamweb_domain_Statistic_rightexercices" property="rightexercices" z="fOAFgYcSLMUIoQpxs/ydvTqLC/I="/>
+            <table:column id="c_ch_dreamweb_domain_Statistic_wrongexercices" property="wrongexercices" z="PJfuVMY4uB+LEe4PyCGdQQ9gV2A="/>
+        </table:table>
+    </page:list>
+</div>

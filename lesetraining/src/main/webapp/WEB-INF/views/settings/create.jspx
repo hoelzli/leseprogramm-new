@@ -4,6 +4,60 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_ch_dreamweb_domain_Setting" modelAttribute="setting" path="/settings" render="${empty dependencies}" z="5X/hPN2OYy7OnolUEvW86VSXcyc=">
         <field:input field="login" id="c_ch_dreamweb_domain_Setting_login" z="AgPTmTkE8CNJwfVaky9tcyhJfM4="/>
+        <field:input field="password" id="c_ch_dreamweb_domain_Setting_password" z="+D3VSoIWzlax1VdKB03v0HqEcVA="/>
+        <field:input field="testday" id="c_ch_dreamweb_domain_Setting_testday" validationMessageCode="field_invalid_integer" z="zSNGZ4IPhHJEmu/TPx0bcsf/UoQ="/>
+        <field:input field="testnumber" id="c_ch_dreamweb_domain_Setting_testnumber" validationMessageCode="field_invalid_integer" z="xOL6f4Oru1j5DW8HR/rfgoaUCcg="/>
+        <field:input field="testround" id="c_ch_dreamweb_domain_Setting_testround" validationMessageCode="field_invalid_integer" z="du6+bRXFwB/DHlqcGawol/+3Q1w="/>
+        <field:input field="schoolclass" id="c_ch_dreamweb_domain_Setting_schoolclass" z="Z1CaIm6Ll13TRORkK/yeAXt4opE="/>
+        <field:input field="soundfiletype" id="c_ch_dreamweb_domain_Setting_soundfiletype" z="nBX3f1o0Hk/Sa/3JEU79GhAjdJ8="/>
+        <field:input field="test1record" id="c_ch_dreamweb_domain_Setting_test1record" validationMessageCode="field_invalid_integer" z="aokF+TzcrHGkKiLXN1u1BJxZZEQ="/>
+        <field:input field="test2record" id="c_ch_dreamweb_domain_Setting_test2record" validationMessageCode="field_invalid_integer" z="Fgo04e2OkGT+YCBROaa3G5P1IJg="/>
+        <field:input field="test3record" id="c_ch_dreamweb_domain_Setting_test3record" validationMessageCode="field_invalid_integer" z="GJrAWKUyDue0rlZaGrI+e21CyIo="/>
+        <field:input field="test4record" id="c_ch_dreamweb_domain_Setting_test4record" validationMessageCode="field_invalid_integer" z="ZWDNb1qJTH9p0xpvN0LyafPBESM="/>
+        <field:input field="test5record" id="c_ch_dreamweb_domain_Setting_test5record" validationMessageCode="field_invalid_integer" z="D+KelhnAb3F/bOqO0gVkjU6+UfY="/>
+        <field:input field="test6record" id="c_ch_dreamweb_domain_Setting_test6record" validationMessageCode="field_invalid_integer" z="cUhp1LU0dgfNtfY8UfqNrNf7x6o="/>
+        <field:checkbox field="enabletest" id="c_ch_dreamweb_domain_Setting_enabletest" z="TPA/2sj6ep0QMJJEKwVkOeFdGHE="/>
+        <field:checkbox field="enabletraining" id="c_ch_dreamweb_domain_Setting_enabletraining" z="bnOfmWS/KurwgnNPzoTvuGhpeX8="/>
+        <field:checkbox field="t1done" id="c_ch_dreamweb_domain_Setting_t1done" z="QY+y7IsjQ3xRfHdtn7LwvwK/oTQ="/>
+        <field:checkbox field="t2done" id="c_ch_dreamweb_domain_Setting_t2done" z="VqgVeKT9ZLZovIVJ3zZfydIn9EY="/>
+        <field:checkbox field="t3done" id="c_ch_dreamweb_domain_Setting_t3done" z="ZyneMasOGx3QaUC7FVvs9hcnNuw="/>
+        <field:checkbox field="t4done" id="c_ch_dreamweb_domain_Setting_t4done" z="19O7fPBmUeGexAu8z2+/jmS7cro="/>
+        <field:input field="t1tottime" id="c_ch_dreamweb_domain_Setting_t1tottime" validationMessageCode="field_invalid_integer" z="UXG/MYD1hguKbe9vUnCi2ib/JL0="/>
+        <field:input field="t2tottime" id="c_ch_dreamweb_domain_Setting_t2tottime" validationMessageCode="field_invalid_integer" z="+TK85qcP0zvvfvuTa3vi/2wS6mM="/>
+        <field:input field="t3tottime" id="c_ch_dreamweb_domain_Setting_t3tottime" validationMessageCode="field_invalid_integer" z="rF26J0H7ouoQB6Xjf0Hk1rJxxAc="/>
+        <field:input field="t4tottime" id="c_ch_dreamweb_domain_Setting_t4tottime" validationMessageCode="field_invalid_integer" z="7REOUWFjTHyKxmIuV+UfyWOI2So="/>
+        <field:input field="t1stepsperlevel" id="c_ch_dreamweb_domain_Setting_t1stepsperlevel" validationMessageCode="field_invalid_integer" z="XcSkauTEGxnnMAaxmVLrOSQKkwo="/>
+        <field:input field="t2stepsperlevel" id="c_ch_dreamweb_domain_Setting_t2stepsperlevel" validationMessageCode="field_invalid_integer" z="Rvu4UstVHV4ZPI/c220N3etS4+k="/>
+        <field:input field="t3stepsperlevel" id="c_ch_dreamweb_domain_Setting_t3stepsperlevel" validationMessageCode="field_invalid_integer" z="IkEA8pMxVQbHHn2gS/FiP0abOpc="/>
+        <field:input field="t4stepsperlevel" id="c_ch_dreamweb_domain_Setting_t4stepsperlevel" validationMessageCode="field_invalid_integer" z="ps+Of5kq98RD7AfRsI73ZJKWFKo="/>
+        <field:input field="t1level" id="c_ch_dreamweb_domain_Setting_t1level" validationMessageCode="field_invalid_integer" z="iLikdalmdO1lhWpcqb4uiu9bnqA="/>
+        <field:input field="t2level" id="c_ch_dreamweb_domain_Setting_t2level" validationMessageCode="field_invalid_integer" z="G7M9++qIw1vcXjYiiIlgW3BULf8="/>
+        <field:input field="t3level" id="c_ch_dreamweb_domain_Setting_t3level" validationMessageCode="field_invalid_integer" z="ODh780sYneZEQQiHdGHHNi7qAsI="/>
+        <field:input field="t4level" id="c_ch_dreamweb_domain_Setting_t4level" validationMessageCode="field_invalid_integer" z="va8Hpo8iNSRu1AvMlC5F0CVQtpA="/>
+        <field:input field="t1step" id="c_ch_dreamweb_domain_Setting_t1step" validationMessageCode="field_invalid_integer" z="Y4x5+xb+EfhwualBJQu66YpM7Cs="/>
+        <field:input field="t2step" id="c_ch_dreamweb_domain_Setting_t2step" validationMessageCode="field_invalid_integer" z="PnfgmPrBXE83lzQ6/c6CEMvN1Ng="/>
+        <field:input field="t3step" id="c_ch_dreamweb_domain_Setting_t3step" validationMessageCode="field_invalid_integer" z="i/H3gtK23Kq5CUerTabL1kfsdqg="/>
+        <field:input field="t4step" id="c_ch_dreamweb_domain_Setting_t4step" validationMessageCode="field_invalid_integer" z="nDvNcWVGpE9/1BTIgiKObhHKfpo="/>
+        <field:input field="t1highestdaylevel" id="c_ch_dreamweb_domain_Setting_t1highestdaylevel" validationMessageCode="field_invalid_integer" z="WhjWysCIFQnhUq0vr3QaaKJjqso="/>
+        <field:input field="t2highestdaylevel" id="c_ch_dreamweb_domain_Setting_t2highestdaylevel" validationMessageCode="field_invalid_integer" z="9oBA6xFdxP+Apg6zT5RdofZkIS8="/>
+        <field:input field="t3highestdaylevel" id="c_ch_dreamweb_domain_Setting_t3highestdaylevel" validationMessageCode="field_invalid_integer" z="Bw4eV142E1TWiXiUHdi84zkdJOQ="/>
+        <field:input field="t4highestdaylevel" id="c_ch_dreamweb_domain_Setting_t4highestdaylevel" validationMessageCode="field_invalid_integer" z="W9Qq6lFUKyqf9eew9IQFcuaooVI="/>
+        <field:input field="t1highestlevel" id="c_ch_dreamweb_domain_Setting_t1highestlevel" validationMessageCode="field_invalid_integer" z="uqVbs5ealzhQA8ux7Zi1/2RfkRU="/>
+        <field:input field="t2highestlevel" id="c_ch_dreamweb_domain_Setting_t2highestlevel" validationMessageCode="field_invalid_integer" z="1VxT6WlE+vlygkH1JaD24rCXFbs="/>
+        <field:input field="t3highestlevel" id="c_ch_dreamweb_domain_Setting_t3highestlevel" validationMessageCode="field_invalid_integer" z="2vCaHEgVv+SdjxWUbYe+E4uR06E="/>
+        <field:input field="t4highestlevel" id="c_ch_dreamweb_domain_Setting_t4highestlevel" validationMessageCode="field_invalid_integer" z="zE1Xg3IACjEJkbvngFVZKhXwUBc="/>
+        <field:input field="t1highestdaystep" id="c_ch_dreamweb_domain_Setting_t1highestdaystep" validationMessageCode="field_invalid_integer" z="BVS34jC+0h6iUnpxst9um2wLuts="/>
+        <field:input field="t2highestdaystep" id="c_ch_dreamweb_domain_Setting_t2highestdaystep" validationMessageCode="field_invalid_integer" z="4rKnImFMdB1XOAvkECoK8ol3QNc="/>
+        <field:input field="t3highestdaystep" id="c_ch_dreamweb_domain_Setting_t3highestdaystep" validationMessageCode="field_invalid_integer" z="12UIo/0GK2IPJm7JagPr/Pot9o4="/>
+        <field:input field="t4highestdaystep" id="c_ch_dreamweb_domain_Setting_t4highestdaystep" validationMessageCode="field_invalid_integer" z="d/UXcKjq0LmfVpK+2laE+YcSx6c="/>
+        <field:input field="t1higheststep" id="c_ch_dreamweb_domain_Setting_t1higheststep" validationMessageCode="field_invalid_integer" z="HfCFL/Zflh8l+Kf/E+wk7bJZjxg="/>
+        <field:input field="t2higheststep" id="c_ch_dreamweb_domain_Setting_t2higheststep" validationMessageCode="field_invalid_integer" z="lp651bs/exETzDg7HDpAwj6Iyqo="/>
+        <field:input field="t3higheststep" id="c_ch_dreamweb_domain_Setting_t3higheststep" validationMessageCode="field_invalid_integer" z="Q2t0sd0SeFBqd0jEk5u75Cfi5ZI="/>
+        <field:input field="t4higheststep" id="c_ch_dreamweb_domain_Setting_t4higheststep" validationMessageCode="field_invalid_integer" z="zyySlF3DzSv9C5BOUEftCxCC4H4="/>
+        <field:input field="t1prestime" id="c_ch_dreamweb_domain_Setting_t1prestime" validationMessageCode="field_invalid_integer" z="SQMmGUK0Dw+W28r0ubX/36jjT6w="/>
+        <field:input field="t2prestime" id="c_ch_dreamweb_domain_Setting_t2prestime" validationMessageCode="field_invalid_integer" z="xH2lYNzIrOHxJTbDqo34zC6z1vQ="/>
+        <field:input field="t3prestime" id="c_ch_dreamweb_domain_Setting_t3prestime" validationMessageCode="field_invalid_integer" z="+FDaXEcbdqYd2qCSz4r/VfQ9utc="/>
+        <field:input field="t4prestime" id="c_ch_dreamweb_domain_Setting_t4prestime" validationMessageCode="field_invalid_integer" z="zhlTkCWOTN4/OWVPAlPSQJcw4uc="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_ch_dreamweb_domain_Setting" render="${not empty dependencies}" z="ei71nUMt8gJrxrxBTv+b6na4Y4Y="/>
 </div>

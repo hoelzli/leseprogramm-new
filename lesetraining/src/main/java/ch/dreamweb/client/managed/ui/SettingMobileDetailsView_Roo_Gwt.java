@@ -27,6 +27,168 @@ public abstract class SettingMobileDetailsView_Roo_Gwt extends Composite impleme
     Element login;
 
     @UiField
+    Element password;
+
+    @UiField
+    Element testday;
+
+    @UiField
+    Element testnumber;
+
+    @UiField
+    Element testround;
+
+    @UiField
+    Element schoolclass;
+
+    @UiField
+    Element soundfiletype;
+
+    @UiField
+    Element test1record;
+
+    @UiField
+    Element test2record;
+
+    @UiField
+    Element test3record;
+
+    @UiField
+    Element test4record;
+
+    @UiField
+    Element test5record;
+
+    @UiField
+    Element test6record;
+
+    @UiField
+    Element enabletest;
+
+    @UiField
+    Element enabletraining;
+
+    @UiField
+    Element t1done;
+
+    @UiField
+    Element t2done;
+
+    @UiField
+    Element t3done;
+
+    @UiField
+    Element t4done;
+
+    @UiField
+    Element t1tottime;
+
+    @UiField
+    Element t2tottime;
+
+    @UiField
+    Element t3tottime;
+
+    @UiField
+    Element t4tottime;
+
+    @UiField
+    Element t1stepsperlevel;
+
+    @UiField
+    Element t2stepsperlevel;
+
+    @UiField
+    Element t3stepsperlevel;
+
+    @UiField
+    Element t4stepsperlevel;
+
+    @UiField
+    Element t1level;
+
+    @UiField
+    Element t2level;
+
+    @UiField
+    Element t3level;
+
+    @UiField
+    Element t4level;
+
+    @UiField
+    Element t1step;
+
+    @UiField
+    Element t2step;
+
+    @UiField
+    Element t3step;
+
+    @UiField
+    Element t4step;
+
+    @UiField
+    Element t1highestdaylevel;
+
+    @UiField
+    Element t2highestdaylevel;
+
+    @UiField
+    Element t3highestdaylevel;
+
+    @UiField
+    Element t4highestdaylevel;
+
+    @UiField
+    Element t1highestlevel;
+
+    @UiField
+    Element t2highestlevel;
+
+    @UiField
+    Element t3highestlevel;
+
+    @UiField
+    Element t4highestlevel;
+
+    @UiField
+    Element t1highestdaystep;
+
+    @UiField
+    Element t2highestdaystep;
+
+    @UiField
+    Element t3highestdaystep;
+
+    @UiField
+    Element t4highestdaystep;
+
+    @UiField
+    Element t1higheststep;
+
+    @UiField
+    Element t2higheststep;
+
+    @UiField
+    Element t3higheststep;
+
+    @UiField
+    Element t4higheststep;
+
+    @UiField
+    Element t1prestime;
+
+    @UiField
+    Element t2prestime;
+
+    @UiField
+    Element t3prestime;
+
+    @UiField
+    Element t4prestime;
+
+    @UiField
     Element version;
 
     SettingProxy proxy;
@@ -35,6 +197,60 @@ public abstract class SettingMobileDetailsView_Roo_Gwt extends Composite impleme
         this.proxy = proxy;
         id.setInnerText(proxy.getId() == null ? "" : String.valueOf(proxy.getId()));
         login.setInnerText(proxy.getLogin() == null ? "" : String.valueOf(proxy.getLogin()));
+        password.setInnerText(proxy.getPassword() == null ? "" : String.valueOf(proxy.getPassword()));
+        testday.setInnerText(proxy.getTestday() == null ? "" : String.valueOf(proxy.getTestday()));
+        testnumber.setInnerText(proxy.getTestnumber() == null ? "" : String.valueOf(proxy.getTestnumber()));
+        testround.setInnerText(proxy.getTestround() == null ? "" : String.valueOf(proxy.getTestround()));
+        schoolclass.setInnerText(proxy.getSchoolclass() == null ? "" : String.valueOf(proxy.getSchoolclass()));
+        soundfiletype.setInnerText(proxy.getSoundfiletype() == null ? "" : String.valueOf(proxy.getSoundfiletype()));
+        test1record.setInnerText(proxy.getTest1record() == null ? "" : String.valueOf(proxy.getTest1record()));
+        test2record.setInnerText(proxy.getTest2record() == null ? "" : String.valueOf(proxy.getTest2record()));
+        test3record.setInnerText(proxy.getTest3record() == null ? "" : String.valueOf(proxy.getTest3record()));
+        test4record.setInnerText(proxy.getTest4record() == null ? "" : String.valueOf(proxy.getTest4record()));
+        test5record.setInnerText(proxy.getTest5record() == null ? "" : String.valueOf(proxy.getTest5record()));
+        test6record.setInnerText(proxy.getTest6record() == null ? "" : String.valueOf(proxy.getTest6record()));
+        enabletest.setInnerText(proxy.getEnabletest() == null ? "" : String.valueOf(proxy.getEnabletest()));
+        enabletraining.setInnerText(proxy.getEnabletraining() == null ? "" : String.valueOf(proxy.getEnabletraining()));
+        t1done.setInnerText(proxy.getT1done() == null ? "" : String.valueOf(proxy.getT1done()));
+        t2done.setInnerText(proxy.getT2done() == null ? "" : String.valueOf(proxy.getT2done()));
+        t3done.setInnerText(proxy.getT3done() == null ? "" : String.valueOf(proxy.getT3done()));
+        t4done.setInnerText(proxy.getT4done() == null ? "" : String.valueOf(proxy.getT4done()));
+        t1tottime.setInnerText(proxy.getT1tottime() == null ? "" : String.valueOf(proxy.getT1tottime()));
+        t2tottime.setInnerText(proxy.getT2tottime() == null ? "" : String.valueOf(proxy.getT2tottime()));
+        t3tottime.setInnerText(proxy.getT3tottime() == null ? "" : String.valueOf(proxy.getT3tottime()));
+        t4tottime.setInnerText(proxy.getT4tottime() == null ? "" : String.valueOf(proxy.getT4tottime()));
+        t1stepsperlevel.setInnerText(proxy.getT1stepsperlevel() == null ? "" : String.valueOf(proxy.getT1stepsperlevel()));
+        t2stepsperlevel.setInnerText(proxy.getT2stepsperlevel() == null ? "" : String.valueOf(proxy.getT2stepsperlevel()));
+        t3stepsperlevel.setInnerText(proxy.getT3stepsperlevel() == null ? "" : String.valueOf(proxy.getT3stepsperlevel()));
+        t4stepsperlevel.setInnerText(proxy.getT4stepsperlevel() == null ? "" : String.valueOf(proxy.getT4stepsperlevel()));
+        t1level.setInnerText(proxy.getT1level() == null ? "" : String.valueOf(proxy.getT1level()));
+        t2level.setInnerText(proxy.getT2level() == null ? "" : String.valueOf(proxy.getT2level()));
+        t3level.setInnerText(proxy.getT3level() == null ? "" : String.valueOf(proxy.getT3level()));
+        t4level.setInnerText(proxy.getT4level() == null ? "" : String.valueOf(proxy.getT4level()));
+        t1step.setInnerText(proxy.getT1step() == null ? "" : String.valueOf(proxy.getT1step()));
+        t2step.setInnerText(proxy.getT2step() == null ? "" : String.valueOf(proxy.getT2step()));
+        t3step.setInnerText(proxy.getT3step() == null ? "" : String.valueOf(proxy.getT3step()));
+        t4step.setInnerText(proxy.getT4step() == null ? "" : String.valueOf(proxy.getT4step()));
+        t1highestdaylevel.setInnerText(proxy.getT1highestdaylevel() == null ? "" : String.valueOf(proxy.getT1highestdaylevel()));
+        t2highestdaylevel.setInnerText(proxy.getT2highestdaylevel() == null ? "" : String.valueOf(proxy.getT2highestdaylevel()));
+        t3highestdaylevel.setInnerText(proxy.getT3highestdaylevel() == null ? "" : String.valueOf(proxy.getT3highestdaylevel()));
+        t4highestdaylevel.setInnerText(proxy.getT4highestdaylevel() == null ? "" : String.valueOf(proxy.getT4highestdaylevel()));
+        t1highestlevel.setInnerText(proxy.getT1highestlevel() == null ? "" : String.valueOf(proxy.getT1highestlevel()));
+        t2highestlevel.setInnerText(proxy.getT2highestlevel() == null ? "" : String.valueOf(proxy.getT2highestlevel()));
+        t3highestlevel.setInnerText(proxy.getT3highestlevel() == null ? "" : String.valueOf(proxy.getT3highestlevel()));
+        t4highestlevel.setInnerText(proxy.getT4highestlevel() == null ? "" : String.valueOf(proxy.getT4highestlevel()));
+        t1highestdaystep.setInnerText(proxy.getT1highestdaystep() == null ? "" : String.valueOf(proxy.getT1highestdaystep()));
+        t2highestdaystep.setInnerText(proxy.getT2highestdaystep() == null ? "" : String.valueOf(proxy.getT2highestdaystep()));
+        t3highestdaystep.setInnerText(proxy.getT3highestdaystep() == null ? "" : String.valueOf(proxy.getT3highestdaystep()));
+        t4highestdaystep.setInnerText(proxy.getT4highestdaystep() == null ? "" : String.valueOf(proxy.getT4highestdaystep()));
+        t1higheststep.setInnerText(proxy.getT1higheststep() == null ? "" : String.valueOf(proxy.getT1higheststep()));
+        t2higheststep.setInnerText(proxy.getT2higheststep() == null ? "" : String.valueOf(proxy.getT2higheststep()));
+        t3higheststep.setInnerText(proxy.getT3higheststep() == null ? "" : String.valueOf(proxy.getT3higheststep()));
+        t4higheststep.setInnerText(proxy.getT4higheststep() == null ? "" : String.valueOf(proxy.getT4higheststep()));
+        t1prestime.setInnerText(proxy.getT1prestime() == null ? "" : String.valueOf(proxy.getT1prestime()));
+        t2prestime.setInnerText(proxy.getT2prestime() == null ? "" : String.valueOf(proxy.getT2prestime()));
+        t3prestime.setInnerText(proxy.getT3prestime() == null ? "" : String.valueOf(proxy.getT3prestime()));
+        t4prestime.setInnerText(proxy.getT4prestime() == null ? "" : String.valueOf(proxy.getT4prestime()));
         version.setInnerText(proxy.getVersion() == null ? "" : String.valueOf(proxy.getVersion()));
     }
 }

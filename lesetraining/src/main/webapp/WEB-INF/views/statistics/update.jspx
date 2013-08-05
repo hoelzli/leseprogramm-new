@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ch_dreamweb_domain_Statistic" modelAttribute="statistic" path="/statistics" versionField="Version" z="EEiHGP1AdGeD+6tTpxAH/7UybSk=">
+        <field:input field="login" id="c_ch_dreamweb_domain_Statistic_login" z="9yPEPaXQf9ozJtJNxWUysQOUqUM="/>
+        <field:datetime dateTimePattern="${statistic_datetime_date_format}" field="datetime" id="c_ch_dreamweb_domain_Statistic_datetime" z="mtdYFWsFqXe5NCxsv1dAHCdFWKQ="/>
+        <field:input field="trainingday" id="c_ch_dreamweb_domain_Statistic_trainingday" validationMessageCode="field_invalid_integer" z="rYMg83B7WBhgMLkLTXhFchZEkMg="/>
+        <field:input field="unit" id="c_ch_dreamweb_domain_Statistic_unit" validationMessageCode="field_invalid_integer" z="Bgb8at55UokkNfiEo6DCrEIoVww="/>
+        <field:input field="rightexercices" id="c_ch_dreamweb_domain_Statistic_rightexercices" validationMessageCode="field_invalid_integer" z="9CIlqVa06lUXQo9nazKJaH7MMeQ="/>
+        <field:input field="wrongexercices" id="c_ch_dreamweb_domain_Statistic_wrongexercices" validationMessageCode="field_invalid_integer" z="QKAdO5rno+/TEL54Tmn6WECistI="/>
+        <field:input field="levelsum" id="c_ch_dreamweb_domain_Statistic_levelsum" validationMessageCode="field_invalid_integer" z="DGa7R7pGV9oiGyghq7l+D1/Ddjk="/>
+        <field:input field="levelsumright" id="c_ch_dreamweb_domain_Statistic_levelsumright" validationMessageCode="field_invalid_integer" z="P8bEF5zgENpXiK0ILQDlKYJj9fU="/>
+        <field:input field="averagelevelright" id="c_ch_dreamweb_domain_Statistic_averagelevelright" validationMessageCode="field_invalid_number" z="tD4FzH4Ajj7hdi00c5UMzX21/Zo="/>
+        <field:input field="highestlevelindex" id="c_ch_dreamweb_domain_Statistic_highestlevelindex" validationMessageCode="field_invalid_integer" z="FULextNT1iEcliOEJjgx2oQyJbk="/>
+        <field:input field="stepsperlevel" id="c_ch_dreamweb_domain_Statistic_stepsperlevel" validationMessageCode="field_invalid_integer" z="XsT9IJBVP8vyIswK+4AarRBl1Vw="/>
+        <field:input field="history" id="c_ch_dreamweb_domain_Statistic_history" z="Uv1VhoR6FmFDBoNZTNXkVqdeUIg="/>
+    </form:update>
+</div>

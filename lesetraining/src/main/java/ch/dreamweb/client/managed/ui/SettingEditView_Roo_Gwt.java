@@ -38,4 +38,196 @@ public abstract class SettingEditView_Roo_Gwt extends Composite implements View<
 
     @UiField
     TextBox login;
+
+    @UiField
+    TextBox password;
+
+    @UiField
+    IntegerBox testday;
+
+    @UiField
+    IntegerBox testnumber;
+
+    @UiField
+    IntegerBox testround;
+
+    @UiField
+    TextBox schoolclass;
+
+    @UiField
+    TextBox soundfiletype;
+
+    @UiField
+    IntegerBox test1record;
+
+    @UiField
+    IntegerBox test2record;
+
+    @UiField
+    IntegerBox test3record;
+
+    @UiField
+    IntegerBox test4record;
+
+    @UiField
+    IntegerBox test5record;
+
+    @UiField
+    IntegerBox test6record;
+
+    @UiField(provided = true)
+    CheckBox enabletest = new CheckBox() {
+
+        public void setValue(Boolean value) {
+            super.setValue(value == null ? Boolean.FALSE : value);
+        }
+    };
+
+    @UiField(provided = true)
+    CheckBox enabletraining = new CheckBox() {
+
+        public void setValue(Boolean value) {
+            super.setValue(value == null ? Boolean.FALSE : value);
+        }
+    };
+
+    @UiField(provided = true)
+    CheckBox t1done = new CheckBox() {
+
+        public void setValue(Boolean value) {
+            super.setValue(value == null ? Boolean.FALSE : value);
+        }
+    };
+
+    @UiField(provided = true)
+    CheckBox t2done = new CheckBox() {
+
+        public void setValue(Boolean value) {
+            super.setValue(value == null ? Boolean.FALSE : value);
+        }
+    };
+
+    @UiField(provided = true)
+    CheckBox t3done = new CheckBox() {
+
+        public void setValue(Boolean value) {
+            super.setValue(value == null ? Boolean.FALSE : value);
+        }
+    };
+
+    @UiField(provided = true)
+    CheckBox t4done = new CheckBox() {
+
+        public void setValue(Boolean value) {
+            super.setValue(value == null ? Boolean.FALSE : value);
+        }
+    };
+
+    @UiField
+    IntegerBox t1tottime;
+
+    @UiField
+    IntegerBox t2tottime;
+
+    @UiField
+    IntegerBox t3tottime;
+
+    @UiField
+    IntegerBox t4tottime;
+
+    @UiField
+    IntegerBox t1stepsperlevel;
+
+    @UiField
+    IntegerBox t2stepsperlevel;
+
+    @UiField
+    IntegerBox t3stepsperlevel;
+
+    @UiField
+    IntegerBox t4stepsperlevel;
+
+    @UiField
+    IntegerBox t1level;
+
+    @UiField
+    IntegerBox t2level;
+
+    @UiField
+    IntegerBox t3level;
+
+    @UiField
+    IntegerBox t4level;
+
+    @UiField
+    IntegerBox t1step;
+
+    @UiField
+    IntegerBox t2step;
+
+    @UiField
+    IntegerBox t3step;
+
+    @UiField
+    IntegerBox t4step;
+
+    @UiField
+    IntegerBox t1highestdaylevel;
+
+    @UiField
+    IntegerBox t2highestdaylevel;
+
+    @UiField
+    IntegerBox t3highestdaylevel;
+
+    @UiField
+    IntegerBox t4highestdaylevel;
+
+    @UiField
+    IntegerBox t1highestlevel;
+
+    @UiField
+    IntegerBox t2highestlevel;
+
+    @UiField
+    IntegerBox t3highestlevel;
+
+    @UiField
+    IntegerBox t4highestlevel;
+
+    @UiField
+    IntegerBox t1highestdaystep;
+
+    @UiField
+    IntegerBox t2highestdaystep;
+
+    @UiField
+    IntegerBox t3highestdaystep;
+
+    @UiField
+    IntegerBox t4highestdaystep;
+
+    @UiField
+    IntegerBox t1higheststep;
+
+    @UiField
+    IntegerBox t2higheststep;
+
+    @UiField
+    IntegerBox t3higheststep;
+
+    @UiField
+    IntegerBox t4higheststep;
+
+    @UiField
+    IntegerBox t1prestime;
+
+    @UiField
+    IntegerBox t2prestime;
+
+    @UiField
+    IntegerBox t3prestime;
+
+    @UiField
+    IntegerBox t4prestime;
 }

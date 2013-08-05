@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g="urn:import:com.google.gwt.user.client.ui">
+ <ui:style>
+    .outer {
+      padding: 10px;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .value {
+      padding: 4px 0px 15px 15px;
+    }
+  </ui:style>
+
+  <g:HTMLPanel debugId="boundElementHolder" styleName="{style.outer}">
+    <div id="id">
+            <div class="{style.label}">Id</div>
+            <div class="{style.value}" ui:field="id"/>
+        </div>
+    <div id="login">
+            <div class="{style.label}">Login</div>
+            <div class="{style.value}" ui:field="login"/>
+        </div>
+    <div id="datetime">
+            <div class="{style.label}">Datetime</div>
+            <div class="{style.value}" ui:field="datetime"/>
+        </div>
+    <div id="trainingday">
+            <div class="{style.label}">Trainingday</div>
+            <div class="{style.value}" ui:field="trainingday"/>
+        </div>
+    <div id="unit">
+            <div class="{style.label}">Unit</div>
+            <div class="{style.value}" ui:field="unit"/>
+        </div>
+    <div id="rightexercices">
+            <div class="{style.label}">Rightexercices</div>
+            <div class="{style.value}" ui:field="rightexercices"/>
+        </div>
+    <div id="wrongexercices">
+            <div class="{style.label}">Wrongexercices</div>
+            <div class="{style.value}" ui:field="wrongexercices"/>
+        </div>
+    <div id="levelsum">
+            <div class="{style.label}">Levelsum</div>
+            <div class="{style.value}" ui:field="levelsum"/>
+        </div>
+    <div id="levelsumright">
+            <div class="{style.label}">Levelsumright</div>
+            <div class="{style.value}" ui:field="levelsumright"/>
+        </div>
+    <div id="averagelevelright">
+            <div class="{style.label}">Averagelevelright</div>
+            <div class="{style.value}" ui:field="averagelevelright"/>
+        </div>
+    <div id="highestlevelindex">
+            <div class="{style.label}">Highestlevelindex</div>
+            <div class="{style.value}" ui:field="highestlevelindex"/>
+        </div>
+    <div id="stepsperlevel">
+            <div class="{style.label}">Stepsperlevel</div>
+            <div class="{style.value}" ui:field="stepsperlevel"/>
+        </div>
+    <div id="history">
+            <div class="{style.label}">History</div>
+            <div class="{style.value}" ui:field="history"/>
+        </div>
+    <div id="version">
+            <div class="{style.label}">Version</div>
+            <div class="{style.value}" ui:field="version"/>
+        </div>
+
+    <g:Button ui:field="delete">Delete</g:Button>
+  </g:HTMLPanel>
+</ui:UiBinder>

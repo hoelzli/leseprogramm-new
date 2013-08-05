@@ -28,6 +28,6 @@ public abstract class SettingMobileListView_Roo_Gwt extends MobileProxyListView<
 
     public void init() {
         paths.add("login");
-        paths.add("id");
+        paths.add("password");
     }
 }

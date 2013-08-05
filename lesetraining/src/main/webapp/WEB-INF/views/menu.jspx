@@ -10,5 +10,9 @@
         <menu:category id="c_seleniumtests" z="PPLMd2yNB6/LSbjIWogAacRPU+Q=">
             <menu:item id="si_seleniumtests_test" messageCode="selenium_menu_test_suite" url="/resources/selenium/test-suite.xhtml" z="wwunW/IPDcunN97u41MvMJZQ2to="/>
         </menu:category>
+        <menu:category id="c_statistic" z="8rvuwPnkrzhihyWf5WscCD4n4lU=">
+            <menu:item id="i_statistic_new" messageCode="global_menu_new" url="/statistics?form" z="NewfoNXppce+/C8CDsnawOsCwKE="/>
+            <menu:item id="i_statistic_list" messageCode="global_menu_list" url="/statistics?page=1&amp;size=${empty param.size ? 10 : param.size}" z="pdLaFPFin1Ze9/cAde476S3eZq0="/>
+        </menu:category>
     </menu:menu>
 </div>

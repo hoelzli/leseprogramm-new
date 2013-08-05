@@ -43,7 +43,8 @@
     <div class="{style.errors}" ui:field="errors"/>
 
     <table class="{style.fields}" id="boundElementHolder">
-      <tr id="login">
+      
+    <tr id="login">
                 <td>
                     <div class="{style.label}">Login:</div>
                 </td>
@@ -51,7 +52,439 @@
                     <g:TextBox ui:field="login"/>
                 </td>
             </tr>
-    </table>
+            <tr id="password">
+                <td>
+                    <div class="{style.label}">Password:</div>
+                </td>
+                <td>
+                    <g:TextBox ui:field="password"/>
+                </td>
+            </tr>
+            <tr id="testday">
+                <td>
+                    <div class="{style.label}">Testday:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="testday"/>
+                </td>
+            </tr>
+            <tr id="testnumber">
+                <td>
+                    <div class="{style.label}">Testnumber:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="testnumber"/>
+                </td>
+            </tr>
+            <tr id="testround">
+                <td>
+                    <div class="{style.label}">Testround:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="testround"/>
+                </td>
+            </tr>
+            <tr id="schoolclass">
+                <td>
+                    <div class="{style.label}">Schoolclass:</div>
+                </td>
+                <td>
+                    <g:TextBox ui:field="schoolclass"/>
+                </td>
+            </tr>
+            <tr id="soundfiletype">
+                <td>
+                    <div class="{style.label}">Soundfiletype:</div>
+                </td>
+                <td>
+                    <g:TextBox ui:field="soundfiletype"/>
+                </td>
+            </tr>
+            <tr id="test1record">
+                <td>
+                    <div class="{style.label}">Test1record:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="test1record"/>
+                </td>
+            </tr>
+            <tr id="test2record">
+                <td>
+                    <div class="{style.label}">Test2record:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="test2record"/>
+                </td>
+            </tr>
+            <tr id="test3record">
+                <td>
+                    <div class="{style.label}">Test3record:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="test3record"/>
+                </td>
+            </tr>
+            <tr id="test4record">
+                <td>
+                    <div class="{style.label}">Test4record:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="test4record"/>
+                </td>
+            </tr>
+            <tr id="test5record">
+                <td>
+                    <div class="{style.label}">Test5record:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="test5record"/>
+                </td>
+            </tr>
+            <tr id="test6record">
+                <td>
+                    <div class="{style.label}">Test6record:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="test6record"/>
+                </td>
+            </tr>
+            <tr id="enabletest">
+                <td>
+                    <div class="{style.label}">Enabletest:</div>
+                </td>
+                <td>
+                    <g:CheckBox ui:field="enabletest"/>
+                </td>
+            </tr>
+            <tr id="enabletraining">
+                <td>
+                    <div class="{style.label}">Enabletraining:</div>
+                </td>
+                <td>
+                    <g:CheckBox ui:field="enabletraining"/>
+                </td>
+            </tr>
+            <tr id="t1done">
+                <td>
+                    <div class="{style.label}">T1done:</div>
+                </td>
+                <td>
+                    <g:CheckBox ui:field="t1done"/>
+                </td>
+            </tr>
+            <tr id="t2done">
+                <td>
+                    <div class="{style.label}">T2done:</div>
+                </td>
+                <td>
+                    <g:CheckBox ui:field="t2done"/>
+                </td>
+            </tr>
+            <tr id="t3done">
+                <td>
+                    <div class="{style.label}">T3done:</div>
+                </td>
+                <td>
+                    <g:CheckBox ui:field="t3done"/>
+                </td>
+            </tr>
+            <tr id="t4done">
+                <td>
+                    <div class="{style.label}">T4done:</div>
+                </td>
+                <td>
+                    <g:CheckBox ui:field="t4done"/>
+                </td>
+            </tr>
+            <tr id="t1tottime">
+                <td>
+                    <div class="{style.label}">T1tottime:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t1tottime"/>
+                </td>
+            </tr>
+            <tr id="t2tottime">
+                <td>
+                    <div class="{style.label}">T2tottime:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t2tottime"/>
+                </td>
+            </tr>
+            <tr id="t3tottime">
+                <td>
+                    <div class="{style.label}">T3tottime:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t3tottime"/>
+                </td>
+            </tr>
+            <tr id="t4tottime">
+                <td>
+                    <div class="{style.label}">T4tottime:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t4tottime"/>
+                </td>
+            </tr>
+            <tr id="t1stepsperlevel">
+                <td>
+                    <div class="{style.label}">T1stepsperlevel:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t1stepsperlevel"/>
+                </td>
+            </tr>
+            <tr id="t2stepsperlevel">
+                <td>
+                    <div class="{style.label}">T2stepsperlevel:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t2stepsperlevel"/>
+                </td>
+            </tr>
+            <tr id="t3stepsperlevel">
+                <td>
+                    <div class="{style.label}">T3stepsperlevel:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t3stepsperlevel"/>
+                </td>
+            </tr>
+            <tr id="t4stepsperlevel">
+                <td>
+                    <div class="{style.label}">T4stepsperlevel:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t4stepsperlevel"/>
+                </td>
+            </tr>
+            <tr id="t1level">
+                <td>
+                    <div class="{style.label}">T1level:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t1level"/>
+                </td>
+            </tr>
+            <tr id="t2level">
+                <td>
+                    <div class="{style.label}">T2level:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t2level"/>
+                </td>
+            </tr>
+            <tr id="t3level">
+                <td>
+                    <div class="{style.label}">T3level:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t3level"/>
+                </td>
+            </tr>
+            <tr id="t4level">
+                <td>
+                    <div class="{style.label}">T4level:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t4level"/>
+                </td>
+            </tr>
+            <tr id="t1step">
+                <td>
+                    <div class="{style.label}">T1step:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t1step"/>
+                </td>
+            </tr>
+            <tr id="t2step">
+                <td>
+                    <div class="{style.label}">T2step:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t2step"/>
+                </td>
+            </tr>
+            <tr id="t3step">
+                <td>
+                    <div class="{style.label}">T3step:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t3step"/>
+                </td>
+            </tr>
+            <tr id="t4step">
+                <td>
+                    <div class="{style.label}">T4step:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t4step"/>
+                </td>
+            </tr>
+            <tr id="t1highestdaylevel">
+                <td>
+                    <div class="{style.label}">T1highestdaylevel:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t1highestdaylevel"/>
+                </td>
+            </tr>
+            <tr id="t2highestdaylevel">
+                <td>
+                    <div class="{style.label}">T2highestdaylevel:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t2highestdaylevel"/>
+                </td>
+            </tr>
+            <tr id="t3highestdaylevel">
+                <td>
+                    <div class="{style.label}">T3highestdaylevel:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t3highestdaylevel"/>
+                </td>
+            </tr>
+            <tr id="t4highestdaylevel">
+                <td>
+                    <div class="{style.label}">T4highestdaylevel:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t4highestdaylevel"/>
+                </td>
+            </tr>
+            <tr id="t1highestlevel">
+                <td>
+                    <div class="{style.label}">T1highestlevel:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t1highestlevel"/>
+                </td>
+            </tr>
+            <tr id="t2highestlevel">
+                <td>
+                    <div class="{style.label}">T2highestlevel:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t2highestlevel"/>
+                </td>
+            </tr>
+            <tr id="t3highestlevel">
+                <td>
+                    <div class="{style.label}">T3highestlevel:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t3highestlevel"/>
+                </td>
+            </tr>
+            <tr id="t4highestlevel">
+                <td>
+                    <div class="{style.label}">T4highestlevel:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t4highestlevel"/>
+                </td>
+            </tr>
+            <tr id="t1highestdaystep">
+                <td>
+                    <div class="{style.label}">T1highestdaystep:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t1highestdaystep"/>
+                </td>
+            </tr>
+            <tr id="t2highestdaystep">
+                <td>
+                    <div class="{style.label}">T2highestdaystep:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t2highestdaystep"/>
+                </td>
+            </tr>
+            <tr id="t3highestdaystep">
+                <td>
+                    <div class="{style.label}">T3highestdaystep:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t3highestdaystep"/>
+                </td>
+            </tr>
+            <tr id="t4highestdaystep">
+                <td>
+                    <div class="{style.label}">T4highestdaystep:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t4highestdaystep"/>
+                </td>
+            </tr>
+            <tr id="t1higheststep">
+                <td>
+                    <div class="{style.label}">T1higheststep:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t1higheststep"/>
+                </td>
+            </tr>
+            <tr id="t2higheststep">
+                <td>
+                    <div class="{style.label}">T2higheststep:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t2higheststep"/>
+                </td>
+            </tr>
+            <tr id="t3higheststep">
+                <td>
+                    <div class="{style.label}">T3higheststep:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t3higheststep"/>
+                </td>
+            </tr>
+            <tr id="t4higheststep">
+                <td>
+                    <div class="{style.label}">T4higheststep:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t4higheststep"/>
+                </td>
+            </tr>
+            <tr id="t1prestime">
+                <td>
+                    <div class="{style.label}">T1prestime:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t1prestime"/>
+                </td>
+            </tr>
+            <tr id="t2prestime">
+                <td>
+                    <div class="{style.label}">T2prestime:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t2prestime"/>
+                </td>
+            </tr>
+            <tr id="t3prestime">
+                <td>
+                    <div class="{style.label}">T3prestime:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t3prestime"/>
+                </td>
+            </tr>
+            <tr id="t4prestime">
+                <td>
+                    <div class="{style.label}">T4prestime:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="t4prestime"/>
+                </td>
+            </tr>
+        </table>
 
     <div class="{style.bar}">
       <g:Button addStyleNames="{style.button}" ui:field="save">Save</g:Button>

@@ -35,7 +35,10 @@
     </div>
 
     <table class="{style.fields}" id="boundElementHolder">
-      <tr id="id">
+      
+      
+      
+    <tr id="id">
                 <td>
                     <span class="{style.label}">Id:</span>
                 </td>
@@ -43,7 +46,7 @@
                     <span ui:field="id"/>
                 </td>
             </tr>
-      <tr id="login">
+            <tr id="login">
                 <td>
                     <span class="{style.label}">Login:</span>
                 </td>
@@ -51,7 +54,439 @@
                     <span ui:field="login"/>
                 </td>
             </tr>
-      <tr id="version">
+            <tr id="password">
+                <td>
+                    <span class="{style.label}">Password:</span>
+                </td>
+                <td>
+                    <span ui:field="password"/>
+                </td>
+            </tr>
+            <tr id="testday">
+                <td>
+                    <span class="{style.label}">Testday:</span>
+                </td>
+                <td>
+                    <span ui:field="testday"/>
+                </td>
+            </tr>
+            <tr id="testnumber">
+                <td>
+                    <span class="{style.label}">Testnumber:</span>
+                </td>
+                <td>
+                    <span ui:field="testnumber"/>
+                </td>
+            </tr>
+            <tr id="testround">
+                <td>
+                    <span class="{style.label}">Testround:</span>
+                </td>
+                <td>
+                    <span ui:field="testround"/>
+                </td>
+            </tr>
+            <tr id="schoolclass">
+                <td>
+                    <span class="{style.label}">Schoolclass:</span>
+                </td>
+                <td>
+                    <span ui:field="schoolclass"/>
+                </td>
+            </tr>
+            <tr id="soundfiletype">
+                <td>
+                    <span class="{style.label}">Soundfiletype:</span>
+                </td>
+                <td>
+                    <span ui:field="soundfiletype"/>
+                </td>
+            </tr>
+            <tr id="test1record">
+                <td>
+                    <span class="{style.label}">Test1record:</span>
+                </td>
+                <td>
+                    <span ui:field="test1record"/>
+                </td>
+            </tr>
+            <tr id="test2record">
+                <td>
+                    <span class="{style.label}">Test2record:</span>
+                </td>
+                <td>
+                    <span ui:field="test2record"/>
+                </td>
+            </tr>
+            <tr id="test3record">
+                <td>
+                    <span class="{style.label}">Test3record:</span>
+                </td>
+                <td>
+                    <span ui:field="test3record"/>
+                </td>
+            </tr>
+            <tr id="test4record">
+                <td>
+                    <span class="{style.label}">Test4record:</span>
+                </td>
+                <td>
+                    <span ui:field="test4record"/>
+                </td>
+            </tr>
+            <tr id="test5record">
+                <td>
+                    <span class="{style.label}">Test5record:</span>
+                </td>
+                <td>
+                    <span ui:field="test5record"/>
+                </td>
+            </tr>
+            <tr id="test6record">
+                <td>
+                    <span class="{style.label}">Test6record:</span>
+                </td>
+                <td>
+                    <span ui:field="test6record"/>
+                </td>
+            </tr>
+            <tr id="enabletest">
+                <td>
+                    <span class="{style.label}">Enabletest:</span>
+                </td>
+                <td>
+                    <span ui:field="enabletest"/>
+                </td>
+            </tr>
+            <tr id="enabletraining">
+                <td>
+                    <span class="{style.label}">Enabletraining:</span>
+                </td>
+                <td>
+                    <span ui:field="enabletraining"/>
+                </td>
+            </tr>
+            <tr id="t1done">
+                <td>
+                    <span class="{style.label}">T1done:</span>
+                </td>
+                <td>
+                    <span ui:field="t1done"/>
+                </td>
+            </tr>
+            <tr id="t2done">
+                <td>
+                    <span class="{style.label}">T2done:</span>
+                </td>
+                <td>
+                    <span ui:field="t2done"/>
+                </td>
+            </tr>
+            <tr id="t3done">
+                <td>
+                    <span class="{style.label}">T3done:</span>
+                </td>
+                <td>
+                    <span ui:field="t3done"/>
+                </td>
+            </tr>
+            <tr id="t4done">
+                <td>
+                    <span class="{style.label}">T4done:</span>
+                </td>
+                <td>
+                    <span ui:field="t4done"/>
+                </td>
+            </tr>
+            <tr id="t1tottime">
+                <td>
+                    <span class="{style.label}">T1tottime:</span>
+                </td>
+                <td>
+                    <span ui:field="t1tottime"/>
+                </td>
+            </tr>
+            <tr id="t2tottime">
+                <td>
+                    <span class="{style.label}">T2tottime:</span>
+                </td>
+                <td>
+                    <span ui:field="t2tottime"/>
+                </td>
+            </tr>
+            <tr id="t3tottime">
+                <td>
+                    <span class="{style.label}">T3tottime:</span>
+                </td>
+                <td>
+                    <span ui:field="t3tottime"/>
+                </td>
+            </tr>
+            <tr id="t4tottime">
+                <td>
+                    <span class="{style.label}">T4tottime:</span>
+                </td>
+                <td>
+                    <span ui:field="t4tottime"/>
+                </td>
+            </tr>
+            <tr id="t1stepsperlevel">
+                <td>
+                    <span class="{style.label}">T1stepsperlevel:</span>
+                </td>
+                <td>
+                    <span ui:field="t1stepsperlevel"/>
+                </td>
+            </tr>
+            <tr id="t2stepsperlevel">
+                <td>
+                    <span class="{style.label}">T2stepsperlevel:</span>
+                </td>
+                <td>
+                    <span ui:field="t2stepsperlevel"/>
+                </td>
+            </tr>
+            <tr id="t3stepsperlevel">
+                <td>
+                    <span class="{style.label}">T3stepsperlevel:</span>
+                </td>
+                <td>
+                    <span ui:field="t3stepsperlevel"/>
+                </td>
+            </tr>
+            <tr id="t4stepsperlevel">
+                <td>
+                    <span class="{style.label}">T4stepsperlevel:</span>
+                </td>
+                <td>
+                    <span ui:field="t4stepsperlevel"/>
+                </td>
+            </tr>
+            <tr id="t1level">
+                <td>
+                    <span class="{style.label}">T1level:</span>
+                </td>
+                <td>
+                    <span ui:field="t1level"/>
+                </td>
+            </tr>
+            <tr id="t2level">
+                <td>
+                    <span class="{style.label}">T2level:</span>
+                </td>
+                <td>
+                    <span ui:field="t2level"/>
+                </td>
+            </tr>
+            <tr id="t3level">
+                <td>
+                    <span class="{style.label}">T3level:</span>
+                </td>
+                <td>
+                    <span ui:field="t3level"/>
+                </td>
+            </tr>
+            <tr id="t4level">
+                <td>
+                    <span class="{style.label}">T4level:</span>
+                </td>
+                <td>
+                    <span ui:field="t4level"/>
+                </td>
+            </tr>
+            <tr id="t1step">
+                <td>
+                    <span class="{style.label}">T1step:</span>
+                </td>
+                <td>
+                    <span ui:field="t1step"/>
+                </td>
+            </tr>
+            <tr id="t2step">
+                <td>
+                    <span class="{style.label}">T2step:</span>
+                </td>
+                <td>
+                    <span ui:field="t2step"/>
+                </td>
+            </tr>
+            <tr id="t3step">
+                <td>
+                    <span class="{style.label}">T3step:</span>
+                </td>
+                <td>
+                    <span ui:field="t3step"/>
+                </td>
+            </tr>
+            <tr id="t4step">
+                <td>
+                    <span class="{style.label}">T4step:</span>
+                </td>
+                <td>
+                    <span ui:field="t4step"/>
+                </td>
+            </tr>
+            <tr id="t1highestdaylevel">
+                <td>
+                    <span class="{style.label}">T1highestdaylevel:</span>
+                </td>
+                <td>
+                    <span ui:field="t1highestdaylevel"/>
+                </td>
+            </tr>
+            <tr id="t2highestdaylevel">
+                <td>
+                    <span class="{style.label}">T2highestdaylevel:</span>
+                </td>
+                <td>
+                    <span ui:field="t2highestdaylevel"/>
+                </td>
+            </tr>
+            <tr id="t3highestdaylevel">
+                <td>
+                    <span class="{style.label}">T3highestdaylevel:</span>
+                </td>
+                <td>
+                    <span ui:field="t3highestdaylevel"/>
+                </td>
+            </tr>
+            <tr id="t4highestdaylevel">
+                <td>
+                    <span class="{style.label}">T4highestdaylevel:</span>
+                </td>
+                <td>
+                    <span ui:field="t4highestdaylevel"/>
+                </td>
+            </tr>
+            <tr id="t1highestlevel">
+                <td>
+                    <span class="{style.label}">T1highestlevel:</span>
+                </td>
+                <td>
+                    <span ui:field="t1highestlevel"/>
+                </td>
+            </tr>
+            <tr id="t2highestlevel">
+                <td>
+                    <span class="{style.label}">T2highestlevel:</span>
+                </td>
+                <td>
+                    <span ui:field="t2highestlevel"/>
+                </td>
+            </tr>
+            <tr id="t3highestlevel">
+                <td>
+                    <span class="{style.label}">T3highestlevel:</span>
+                </td>
+                <td>
+                    <span ui:field="t3highestlevel"/>
+                </td>
+            </tr>
+            <tr id="t4highestlevel">
+                <td>
+                    <span class="{style.label}">T4highestlevel:</span>
+                </td>
+                <td>
+                    <span ui:field="t4highestlevel"/>
+                </td>
+            </tr>
+            <tr id="t1highestdaystep">
+                <td>
+                    <span class="{style.label}">T1highestdaystep:</span>
+                </td>
+                <td>
+                    <span ui:field="t1highestdaystep"/>
+                </td>
+            </tr>
+            <tr id="t2highestdaystep">
+                <td>
+                    <span class="{style.label}">T2highestdaystep:</span>
+                </td>
+                <td>
+                    <span ui:field="t2highestdaystep"/>
+                </td>
+            </tr>
+            <tr id="t3highestdaystep">
+                <td>
+                    <span class="{style.label}">T3highestdaystep:</span>
+                </td>
+                <td>
+                    <span ui:field="t3highestdaystep"/>
+                </td>
+            </tr>
+            <tr id="t4highestdaystep">
+                <td>
+                    <span class="{style.label}">T4highestdaystep:</span>
+                </td>
+                <td>
+                    <span ui:field="t4highestdaystep"/>
+                </td>
+            </tr>
+            <tr id="t1higheststep">
+                <td>
+                    <span class="{style.label}">T1higheststep:</span>
+                </td>
+                <td>
+                    <span ui:field="t1higheststep"/>
+                </td>
+            </tr>
+            <tr id="t2higheststep">
+                <td>
+                    <span class="{style.label}">T2higheststep:</span>
+                </td>
+                <td>
+                    <span ui:field="t2higheststep"/>
+                </td>
+            </tr>
+            <tr id="t3higheststep">
+                <td>
+                    <span class="{style.label}">T3higheststep:</span>
+                </td>
+                <td>
+                    <span ui:field="t3higheststep"/>
+                </td>
+            </tr>
+            <tr id="t4higheststep">
+                <td>
+                    <span class="{style.label}">T4higheststep:</span>
+                </td>
+                <td>
+                    <span ui:field="t4higheststep"/>
+                </td>
+            </tr>
+            <tr id="t1prestime">
+                <td>
+                    <span class="{style.label}">T1prestime:</span>
+                </td>
+                <td>
+                    <span ui:field="t1prestime"/>
+                </td>
+            </tr>
+            <tr id="t2prestime">
+                <td>
+                    <span class="{style.label}">T2prestime:</span>
+                </td>
+                <td>
+                    <span ui:field="t2prestime"/>
+                </td>
+            </tr>
+            <tr id="t3prestime">
+                <td>
+                    <span class="{style.label}">T3prestime:</span>
+                </td>
+                <td>
+                    <span ui:field="t3prestime"/>
+                </td>
+            </tr>
+            <tr id="t4prestime">
+                <td>
+                    <span class="{style.label}">T4prestime:</span>
+                </td>
+                <td>
+                    <span ui:field="t4prestime"/>
+                </td>
+            </tr>
+            <tr id="version">
                 <td>
                     <span class="{style.label}">Version:</span>
                 </td>
@@ -59,7 +494,7 @@
                     <span ui:field="version"/>
                 </td>
             </tr>
-    </table>
+        </table>
 
   <div class="{style.bar}">
     <g:Button addStyleNames="{style.button}" ui:field="edit">Edit</g:Button>

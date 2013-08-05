@@ -58,6 +58,816 @@ public abstract class SettingListView_Roo_Gwt extends AbstractProxyListView<Sett
                 return renderer.render(object.getLogin());
             }
         }, "Login");
+        paths.add("password");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.String> renderer = new AbstractRenderer<java.lang.String>() {
+
+                public String render(java.lang.String obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getPassword());
+            }
+        }, "Password");
+        paths.add("testday");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getTestday());
+            }
+        }, "Testday");
+        paths.add("testnumber");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getTestnumber());
+            }
+        }, "Testnumber");
+        paths.add("testround");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getTestround());
+            }
+        }, "Testround");
+        paths.add("schoolclass");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.String> renderer = new AbstractRenderer<java.lang.String>() {
+
+                public String render(java.lang.String obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getSchoolclass());
+            }
+        }, "Schoolclass");
+        paths.add("soundfiletype");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.String> renderer = new AbstractRenderer<java.lang.String>() {
+
+                public String render(java.lang.String obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getSoundfiletype());
+            }
+        }, "Soundfiletype");
+        paths.add("test1record");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getTest1record());
+            }
+        }, "Test1record");
+        paths.add("test2record");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getTest2record());
+            }
+        }, "Test2record");
+        paths.add("test3record");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getTest3record());
+            }
+        }, "Test3record");
+        paths.add("test4record");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getTest4record());
+            }
+        }, "Test4record");
+        paths.add("test5record");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getTest5record());
+            }
+        }, "Test5record");
+        paths.add("test6record");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getTest6record());
+            }
+        }, "Test6record");
+        paths.add("enabletest");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Boolean> renderer = new AbstractRenderer<java.lang.Boolean>() {
+
+                public String render(java.lang.Boolean obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getEnabletest());
+            }
+        }, "Enabletest");
+        paths.add("enabletraining");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Boolean> renderer = new AbstractRenderer<java.lang.Boolean>() {
+
+                public String render(java.lang.Boolean obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getEnabletraining());
+            }
+        }, "Enabletraining");
+        paths.add("t1done");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Boolean> renderer = new AbstractRenderer<java.lang.Boolean>() {
+
+                public String render(java.lang.Boolean obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT1done());
+            }
+        }, "T1done");
+        paths.add("t2done");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Boolean> renderer = new AbstractRenderer<java.lang.Boolean>() {
+
+                public String render(java.lang.Boolean obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT2done());
+            }
+        }, "T2done");
+        paths.add("t3done");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Boolean> renderer = new AbstractRenderer<java.lang.Boolean>() {
+
+                public String render(java.lang.Boolean obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT3done());
+            }
+        }, "T3done");
+        paths.add("t4done");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Boolean> renderer = new AbstractRenderer<java.lang.Boolean>() {
+
+                public String render(java.lang.Boolean obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT4done());
+            }
+        }, "T4done");
+        paths.add("t1tottime");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT1tottime());
+            }
+        }, "T1tottime");
+        paths.add("t2tottime");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT2tottime());
+            }
+        }, "T2tottime");
+        paths.add("t3tottime");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT3tottime());
+            }
+        }, "T3tottime");
+        paths.add("t4tottime");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT4tottime());
+            }
+        }, "T4tottime");
+        paths.add("t1stepsperlevel");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT1stepsperlevel());
+            }
+        }, "T1stepsperlevel");
+        paths.add("t2stepsperlevel");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT2stepsperlevel());
+            }
+        }, "T2stepsperlevel");
+        paths.add("t3stepsperlevel");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT3stepsperlevel());
+            }
+        }, "T3stepsperlevel");
+        paths.add("t4stepsperlevel");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT4stepsperlevel());
+            }
+        }, "T4stepsperlevel");
+        paths.add("t1level");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT1level());
+            }
+        }, "T1level");
+        paths.add("t2level");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT2level());
+            }
+        }, "T2level");
+        paths.add("t3level");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT3level());
+            }
+        }, "T3level");
+        paths.add("t4level");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT4level());
+            }
+        }, "T4level");
+        paths.add("t1step");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT1step());
+            }
+        }, "T1step");
+        paths.add("t2step");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT2step());
+            }
+        }, "T2step");
+        paths.add("t3step");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT3step());
+            }
+        }, "T3step");
+        paths.add("t4step");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT4step());
+            }
+        }, "T4step");
+        paths.add("t1highestdaylevel");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT1highestdaylevel());
+            }
+        }, "T1highestdaylevel");
+        paths.add("t2highestdaylevel");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT2highestdaylevel());
+            }
+        }, "T2highestdaylevel");
+        paths.add("t3highestdaylevel");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT3highestdaylevel());
+            }
+        }, "T3highestdaylevel");
+        paths.add("t4highestdaylevel");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT4highestdaylevel());
+            }
+        }, "T4highestdaylevel");
+        paths.add("t1highestlevel");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT1highestlevel());
+            }
+        }, "T1highestlevel");
+        paths.add("t2highestlevel");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT2highestlevel());
+            }
+        }, "T2highestlevel");
+        paths.add("t3highestlevel");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT3highestlevel());
+            }
+        }, "T3highestlevel");
+        paths.add("t4highestlevel");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT4highestlevel());
+            }
+        }, "T4highestlevel");
+        paths.add("t1highestdaystep");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT1highestdaystep());
+            }
+        }, "T1highestdaystep");
+        paths.add("t2highestdaystep");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT2highestdaystep());
+            }
+        }, "T2highestdaystep");
+        paths.add("t3highestdaystep");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT3highestdaystep());
+            }
+        }, "T3highestdaystep");
+        paths.add("t4highestdaystep");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT4highestdaystep());
+            }
+        }, "T4highestdaystep");
+        paths.add("t1higheststep");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT1higheststep());
+            }
+        }, "T1higheststep");
+        paths.add("t2higheststep");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT2higheststep());
+            }
+        }, "T2higheststep");
+        paths.add("t3higheststep");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT3higheststep());
+            }
+        }, "T3higheststep");
+        paths.add("t4higheststep");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT4higheststep());
+            }
+        }, "T4higheststep");
+        paths.add("t1prestime");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT1prestime());
+            }
+        }, "T1prestime");
+        paths.add("t2prestime");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT2prestime());
+            }
+        }, "T2prestime");
+        paths.add("t3prestime");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT3prestime());
+            }
+        }, "T3prestime");
+        paths.add("t4prestime");
+        table.addColumn(new TextColumn<SettingProxy>() {
+
+            Renderer<java.lang.Integer> renderer = new AbstractRenderer<java.lang.Integer>() {
+
+                public String render(java.lang.Integer obj) {
+                    return obj == null ? "" : String.valueOf(obj);
+                }
+            };
+
+            @Override
+            public String getValue(SettingProxy object) {
+                return renderer.render(object.getT4prestime());
+            }
+        }, "T4prestime");
         paths.add("version");
         table.addColumn(new TextColumn<SettingProxy>() {
 

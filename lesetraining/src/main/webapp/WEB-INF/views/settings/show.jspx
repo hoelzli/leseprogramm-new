@@ -4,5 +4,59 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_ch_dreamweb_domain_Setting" object="${setting}" path="/settings" z="/mSv9S9WyC33HIRHFUlDDIhyn94=">
         <field:display field="login" id="s_ch_dreamweb_domain_Setting_login" object="${setting}" z="e1Rdu8ogVE39RWQZVopv/PyTaxk="/>
+        <field:display field="password" id="s_ch_dreamweb_domain_Setting_password" object="${setting}" z="3nLy6UOAunr8FDfGqLz4Adu80ok="/>
+        <field:display field="testday" id="s_ch_dreamweb_domain_Setting_testday" object="${setting}" z="kNqgaDS0mqMvOxV2eqG7zjU+T2Q="/>
+        <field:display field="testnumber" id="s_ch_dreamweb_domain_Setting_testnumber" object="${setting}" z="pfgl3P5ovW2eec1f979Ow0lEoc4="/>
+        <field:display field="testround" id="s_ch_dreamweb_domain_Setting_testround" object="${setting}" z="tPa1uX7KKIcbEZXm6uuOd246yK0="/>
+        <field:display field="schoolclass" id="s_ch_dreamweb_domain_Setting_schoolclass" object="${setting}" z="cXPQqQLikJKatXkDP/qlIRtqcPY="/>
+        <field:display field="soundfiletype" id="s_ch_dreamweb_domain_Setting_soundfiletype" object="${setting}" z="lrSrIdE/0QAMZs6PLQNk+NqWPMI="/>
+        <field:display field="test1record" id="s_ch_dreamweb_domain_Setting_test1record" object="${setting}" z="d6focN2Xx8RbFvsyOKcKV0/10WU="/>
+        <field:display field="test2record" id="s_ch_dreamweb_domain_Setting_test2record" object="${setting}" z="rcf3QCvSDMR39cZHsrHmETeMl2U="/>
+        <field:display field="test3record" id="s_ch_dreamweb_domain_Setting_test3record" object="${setting}" z="zfSqVmLE+YsX1SdeeEQ0DeZ3OX4="/>
+        <field:display field="test4record" id="s_ch_dreamweb_domain_Setting_test4record" object="${setting}" z="azntio2g7jkS/XPT6kU4vKbzslo="/>
+        <field:display field="test5record" id="s_ch_dreamweb_domain_Setting_test5record" object="${setting}" z="aYdzUkzx8vJswBjqqN5HovZWH1g="/>
+        <field:display field="test6record" id="s_ch_dreamweb_domain_Setting_test6record" object="${setting}" z="j67YtWBlBCf8bO+fD79ZO2ArmlE="/>
+        <field:display field="enabletest" id="s_ch_dreamweb_domain_Setting_enabletest" object="${setting}" z="gngXoJ7JCjPaa2TPwJq4PJ4AvKQ="/>
+        <field:display field="enabletraining" id="s_ch_dreamweb_domain_Setting_enabletraining" object="${setting}" z="4sJSSF7cu8/wW+TyOMKoF+OVtDs="/>
+        <field:display field="t1done" id="s_ch_dreamweb_domain_Setting_t1done" object="${setting}" z="AFq0Piw4sgc0HuwwLqopgVJHj04="/>
+        <field:display field="t2done" id="s_ch_dreamweb_domain_Setting_t2done" object="${setting}" z="qzazcHxAq5W+2zRdPoc4wrDV1Ms="/>
+        <field:display field="t3done" id="s_ch_dreamweb_domain_Setting_t3done" object="${setting}" z="a5Vn5NYKJfMC4BRW0YG6YNCXaAw="/>
+        <field:display field="t4done" id="s_ch_dreamweb_domain_Setting_t4done" object="${setting}" z="zhLnEZN57Ju8b9EZ3/pPaNF3apo="/>
+        <field:display field="t1tottime" id="s_ch_dreamweb_domain_Setting_t1tottime" object="${setting}" z="r1IjB9JIKkvCjeSNv6BvJCcOIdo="/>
+        <field:display field="t2tottime" id="s_ch_dreamweb_domain_Setting_t2tottime" object="${setting}" z="aXWkXF4vkVSAu8bf3wNk7nmSd30="/>
+        <field:display field="t3tottime" id="s_ch_dreamweb_domain_Setting_t3tottime" object="${setting}" z="F3GE3XraMFTzagoKA/aj+n5wP50="/>
+        <field:display field="t4tottime" id="s_ch_dreamweb_domain_Setting_t4tottime" object="${setting}" z="MSD713Ndc0P7jpQCdwLZ0QtG9Yk="/>
+        <field:display field="t1stepsperlevel" id="s_ch_dreamweb_domain_Setting_t1stepsperlevel" object="${setting}" z="zBlknA9WWooH/RnjxDiiUvVhvkI="/>
+        <field:display field="t2stepsperlevel" id="s_ch_dreamweb_domain_Setting_t2stepsperlevel" object="${setting}" z="gbTl5A4AsDcRXZ+pmKUR0XJfh+U="/>
+        <field:display field="t3stepsperlevel" id="s_ch_dreamweb_domain_Setting_t3stepsperlevel" object="${setting}" z="ezXHEQXHsvOHOwBN9gGva742hOE="/>
+        <field:display field="t4stepsperlevel" id="s_ch_dreamweb_domain_Setting_t4stepsperlevel" object="${setting}" z="SenOQ3fMm1cRnDWtx7Ls2YkYh2Q="/>
+        <field:display field="t1level" id="s_ch_dreamweb_domain_Setting_t1level" object="${setting}" z="frHEAc0hbmHCYqVkCGPcLwu4CWI="/>
+        <field:display field="t2level" id="s_ch_dreamweb_domain_Setting_t2level" object="${setting}" z="jHXZSM1kXgeMUBTdDwZ7IxHRqEE="/>
+        <field:display field="t3level" id="s_ch_dreamweb_domain_Setting_t3level" object="${setting}" z="nyUPD60m6Fi3Q1DDd9lhXCdswRY="/>
+        <field:display field="t4level" id="s_ch_dreamweb_domain_Setting_t4level" object="${setting}" z="biaaD3bl+mWdKdEgt7xWpXd9Tuk="/>
+        <field:display field="t1step" id="s_ch_dreamweb_domain_Setting_t1step" object="${setting}" z="Ie8TdhRSdvmiVbqtDbUtVZ93j/Y="/>
+        <field:display field="t2step" id="s_ch_dreamweb_domain_Setting_t2step" object="${setting}" z="jqzvAG0VUWgLABWwqc4bGIAWPhs="/>
+        <field:display field="t3step" id="s_ch_dreamweb_domain_Setting_t3step" object="${setting}" z="KXgxIO2Wb15CS60MOi0LA5f8l74="/>
+        <field:display field="t4step" id="s_ch_dreamweb_domain_Setting_t4step" object="${setting}" z="Fp83kWSzkXxwjMVEILyE/63AtO8="/>
+        <field:display field="t1highestdaylevel" id="s_ch_dreamweb_domain_Setting_t1highestdaylevel" object="${setting}" z="orIHW0/7GwjGRjCcc/iryVhVU6k="/>
+        <field:display field="t2highestdaylevel" id="s_ch_dreamweb_domain_Setting_t2highestdaylevel" object="${setting}" z="PkQ6KxPysf1HD3xRpHOXns5FRCc="/>
+        <field:display field="t3highestdaylevel" id="s_ch_dreamweb_domain_Setting_t3highestdaylevel" object="${setting}" z="YBPcYtVKUomjYShWV7ZydsWd+W0="/>
+        <field:display field="t4highestdaylevel" id="s_ch_dreamweb_domain_Setting_t4highestdaylevel" object="${setting}" z="+XguJUUthyW4gF31rjA8gU6SN4k="/>
+        <field:display field="t1highestlevel" id="s_ch_dreamweb_domain_Setting_t1highestlevel" object="${setting}" z="+cgfVPtCDBC6prWcr40K6zoATAE="/>
+        <field:display field="t2highestlevel" id="s_ch_dreamweb_domain_Setting_t2highestlevel" object="${setting}" z="lqKOAGJ/b51p+HD3mov2nWcSg60="/>
+        <field:display field="t3highestlevel" id="s_ch_dreamweb_domain_Setting_t3highestlevel" object="${setting}" z="F6Hwa9L6RjEVf7VyQoJOLGUI2ac="/>
+        <field:display field="t4highestlevel" id="s_ch_dreamweb_domain_Setting_t4highestlevel" object="${setting}" z="w6YXqHuxR6zCE6AsJYrwz7FjAJg="/>
+        <field:display field="t1highestdaystep" id="s_ch_dreamweb_domain_Setting_t1highestdaystep" object="${setting}" z="+wVTboPBIA/Lj/wK5ktrf+MUtLY="/>
+        <field:display field="t2highestdaystep" id="s_ch_dreamweb_domain_Setting_t2highestdaystep" object="${setting}" z="LsAysZ4HvIOZZANUc7NlrYJ1Iq8="/>
+        <field:display field="t3highestdaystep" id="s_ch_dreamweb_domain_Setting_t3highestdaystep" object="${setting}" z="GmqvLm8Fg0u7nSj5QyLcZhrXpI0="/>
+        <field:display field="t4highestdaystep" id="s_ch_dreamweb_domain_Setting_t4highestdaystep" object="${setting}" z="pn8Wg5s2IgVVa0VlZZF/OwZjwpo="/>
+        <field:display field="t1higheststep" id="s_ch_dreamweb_domain_Setting_t1higheststep" object="${setting}" z="Y7yquwty27Pw3td+sc37I9XIIxU="/>
+        <field:display field="t2higheststep" id="s_ch_dreamweb_domain_Setting_t2higheststep" object="${setting}" z="DGT1dwYgBFR0phnMxqEeUsYiiGQ="/>
+        <field:display field="t3higheststep" id="s_ch_dreamweb_domain_Setting_t3higheststep" object="${setting}" z="Waoi7x5kIVGhZ+gdfMUsa24A1O0="/>
+        <field:display field="t4higheststep" id="s_ch_dreamweb_domain_Setting_t4higheststep" object="${setting}" z="qjs5nC4J90yL/xWJIvsOrVvEv/w="/>
+        <field:display field="t1prestime" id="s_ch_dreamweb_domain_Setting_t1prestime" object="${setting}" z="ykYFApbs74gLZuyo7mFWfsLpg4o="/>
+        <field:display field="t2prestime" id="s_ch_dreamweb_domain_Setting_t2prestime" object="${setting}" z="H0ubeIrhzBAxYEy8horipKhMzj0="/>
+        <field:display field="t3prestime" id="s_ch_dreamweb_domain_Setting_t3prestime" object="${setting}" z="lfI3xzatQL/4z/mJQ0o3pDPsXng="/>
+        <field:display field="t4prestime" id="s_ch_dreamweb_domain_Setting_t4prestime" object="${setting}" z="5KwqkSyL2IXUwHdcSleC31Fw+7A="/>
     </page:show>
 </div>

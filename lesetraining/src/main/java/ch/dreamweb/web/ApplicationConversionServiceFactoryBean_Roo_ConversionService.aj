@@ -4,6 +4,7 @@
 package ch.dreamweb.web;
 
 import ch.dreamweb.domain.Setting;
+import ch.dreamweb.domain.Statistic;
 import ch.dreamweb.web.ApplicationConversionServiceFactoryBean;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.core.convert.converter.Converter;
@@ -16,7 +17,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<Setting, String> ApplicationConversionServiceFactoryBean.getSettingToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<ch.dreamweb.domain.Setting, java.lang.String>() {
             public String convert(Setting setting) {
-                return new StringBuilder().append(setting.getLogin()).toString();
+                return new StringBuilder().append(setting.getLogin()).append(' ').append(setting.getPassword()).append(' ').append(setting.getTestday()).append(' ').append(setting.getTestnumber()).toString();
             }
         };
     }
@@ -37,10 +38,37 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         };
     }
     
+    public Converter<Statistic, String> ApplicationConversionServiceFactoryBean.getStatisticToStringConverter() {
+        return new org.springframework.core.convert.converter.Converter<ch.dreamweb.domain.Statistic, java.lang.String>() {
+            public String convert(Statistic statistic) {
+                return new StringBuilder().append(statistic.getLogin()).append(' ').append(statistic.getDatetime()).append(' ').append(statistic.getTrainingday()).append(' ').append(statistic.getUnit()).toString();
+            }
+        };
+    }
+    
+    public Converter<Long, Statistic> ApplicationConversionServiceFactoryBean.getIdToStatisticConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.Long, ch.dreamweb.domain.Statistic>() {
+            public ch.dreamweb.domain.Statistic convert(java.lang.Long id) {
+                return Statistic.findStatistic(id);
+            }
+        };
+    }
+    
+    public Converter<String, Statistic> ApplicationConversionServiceFactoryBean.getStringToStatisticConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.String, ch.dreamweb.domain.Statistic>() {
+            public ch.dreamweb.domain.Statistic convert(String id) {
+                return getObject().convert(getObject().convert(id, Long.class), Statistic.class);
+            }
+        };
+    }
+    
     public void ApplicationConversionServiceFactoryBean.installLabelConverters(FormatterRegistry registry) {
         registry.addConverter(getSettingToStringConverter());
         registry.addConverter(getIdToSettingConverter());
         registry.addConverter(getStringToSettingConverter());
+        registry.addConverter(getStatisticToStringConverter());
+        registry.addConverter(getIdToStatisticConverter());
+        registry.addConverter(getStringToStatisticConverter());
     }
     
     public void ApplicationConversionServiceFactoryBean.afterPropertiesSet() {

@@ -15,4 +15,436 @@ privileged aspect Setting_Roo_JavaBean {
         this.login = login;
     }
     
+    public String Setting.getPassword() {
+        return this.password;
+    }
+    
+    public void Setting.setPassword(String password) {
+        this.password = password;
+    }
+    
+    public Integer Setting.getTestday() {
+        return this.testday;
+    }
+    
+    public void Setting.setTestday(Integer testday) {
+        this.testday = testday;
+    }
+    
+    public Integer Setting.getTestnumber() {
+        return this.testnumber;
+    }
+    
+    public void Setting.setTestnumber(Integer testnumber) {
+        this.testnumber = testnumber;
+    }
+    
+    public Integer Setting.getTestround() {
+        return this.testround;
+    }
+    
+    public void Setting.setTestround(Integer testround) {
+        this.testround = testround;
+    }
+    
+    public String Setting.getSchoolclass() {
+        return this.schoolclass;
+    }
+    
+    public void Setting.setSchoolclass(String schoolclass) {
+        this.schoolclass = schoolclass;
+    }
+    
+    public String Setting.getSoundfiletype() {
+        return this.soundfiletype;
+    }
+    
+    public void Setting.setSoundfiletype(String soundfiletype) {
+        this.soundfiletype = soundfiletype;
+    }
+    
+    public Integer Setting.getTest1record() {
+        return this.test1record;
+    }
+    
+    public void Setting.setTest1record(Integer test1record) {
+        this.test1record = test1record;
+    }
+    
+    public Integer Setting.getTest2record() {
+        return this.test2record;
+    }
+    
+    public void Setting.setTest2record(Integer test2record) {
+        this.test2record = test2record;
+    }
+    
+    public Integer Setting.getTest3record() {
+        return this.test3record;
+    }
+    
+    public void Setting.setTest3record(Integer test3record) {
+        this.test3record = test3record;
+    }
+    
+    public Integer Setting.getTest4record() {
+        return this.test4record;
+    }
+    
+    public void Setting.setTest4record(Integer test4record) {
+        this.test4record = test4record;
+    }
+    
+    public Integer Setting.getTest5record() {
+        return this.test5record;
+    }
+    
+    public void Setting.setTest5record(Integer test5record) {
+        this.test5record = test5record;
+    }
+    
+    public Integer Setting.getTest6record() {
+        return this.test6record;
+    }
+    
+    public void Setting.setTest6record(Integer test6record) {
+        this.test6record = test6record;
+    }
+    
+    public Boolean Setting.getEnabletest() {
+        return this.enabletest;
+    }
+    
+    public void Setting.setEnabletest(Boolean enabletest) {
+        this.enabletest = enabletest;
+    }
+    
+    public Boolean Setting.getEnabletraining() {
+        return this.enabletraining;
+    }
+    
+    public void Setting.setEnabletraining(Boolean enabletraining) {
+        this.enabletraining = enabletraining;
+    }
+    
+    public Boolean Setting.getT1done() {
+        return this.t1done;
+    }
+    
+    public void Setting.setT1done(Boolean t1done) {
+        this.t1done = t1done;
+    }
+    
+    public Boolean Setting.getT2done() {
+        return this.t2done;
+    }
+    
+    public void Setting.setT2done(Boolean t2done) {
+        this.t2done = t2done;
+    }
+    
+    public Boolean Setting.getT3done() {
+        return this.t3done;
+    }
+    
+    public void Setting.setT3done(Boolean t3done) {
+        this.t3done = t3done;
+    }
+    
+    public Boolean Setting.getT4done() {
+        return this.t4done;
+    }
+    
+    public void Setting.setT4done(Boolean t4done) {
+        this.t4done = t4done;
+    }
+    
+    public Integer Setting.getT1tottime() {
+        return this.t1tottime;
+    }
+    
+    public void Setting.setT1tottime(Integer t1tottime) {
+        this.t1tottime = t1tottime;
+    }
+    
+    public Integer Setting.getT2tottime() {
+        return this.t2tottime;
+    }
+    
+    public void Setting.setT2tottime(Integer t2tottime) {
+        this.t2tottime = t2tottime;
+    }
+    
+    public Integer Setting.getT3tottime() {
+        return this.t3tottime;
+    }
+    
+    public void Setting.setT3tottime(Integer t3tottime) {
+        this.t3tottime = t3tottime;
+    }
+    
+    public Integer Setting.getT4tottime() {
+        return this.t4tottime;
+    }
+    
+    public void Setting.setT4tottime(Integer t4tottime) {
+        this.t4tottime = t4tottime;
+    }
+    
+    public Integer Setting.getT1stepsperlevel() {
+        return this.t1stepsperlevel;
+    }
+    
+    public void Setting.setT1stepsperlevel(Integer t1stepsperlevel) {
+        this.t1stepsperlevel = t1stepsperlevel;
+    }
+    
+    public Integer Setting.getT2stepsperlevel() {
+        return this.t2stepsperlevel;
+    }
+    
+    public void Setting.setT2stepsperlevel(Integer t2stepsperlevel) {
+        this.t2stepsperlevel = t2stepsperlevel;
+    }
+    
+    public Integer Setting.getT3stepsperlevel() {
+        return this.t3stepsperlevel;
+    }
+    
+    public void Setting.setT3stepsperlevel(Integer t3stepsperlevel) {
+        this.t3stepsperlevel = t3stepsperlevel;
+    }
+    
+    public Integer Setting.getT4stepsperlevel() {
+        return this.t4stepsperlevel;
+    }
+    
+    public void Setting.setT4stepsperlevel(Integer t4stepsperlevel) {
+        this.t4stepsperlevel = t4stepsperlevel;
+    }
+    
+    public Integer Setting.getT1level() {
+        return this.t1level;
+    }
+    
+    public void Setting.setT1level(Integer t1level) {
+        this.t1level = t1level;
+    }
+    
+    public Integer Setting.getT2level() {
+        return this.t2level;
+    }
+    
+    public void Setting.setT2level(Integer t2level) {
+        this.t2level = t2level;
+    }
+    
+    public Integer Setting.getT3level() {
+        return this.t3level;
+    }
+    
+    public void Setting.setT3level(Integer t3level) {
+        this.t3level = t3level;
+    }
+    
+    public Integer Setting.getT4level() {
+        return this.t4level;
+    }
+    
+    public void Setting.setT4level(Integer t4level) {
+        this.t4level = t4level;
+    }
+    
+    public Integer Setting.getT1step() {
+        return this.t1step;
+    }
+    
+    public void Setting.setT1step(Integer t1step) {
+        this.t1step = t1step;
+    }
+    
+    public Integer Setting.getT2step() {
+        return this.t2step;
+    }
+    
+    public void Setting.setT2step(Integer t2step) {
+        this.t2step = t2step;
+    }
+    
+    public Integer Setting.getT3step() {
+        return this.t3step;
+    }
+    
+    public void Setting.setT3step(Integer t3step) {
+        this.t3step = t3step;
+    }
+    
+    public Integer Setting.getT4step() {
+        return this.t4step;
+    }
+    
+    public void Setting.setT4step(Integer t4step) {
+        this.t4step = t4step;
+    }
+    
+    public Integer Setting.getT1highestdaylevel() {
+        return this.t1highestdaylevel;
+    }
+    
+    public void Setting.setT1highestdaylevel(Integer t1highestdaylevel) {
+        this.t1highestdaylevel = t1highestdaylevel;
+    }
+    
+    public Integer Setting.getT2highestdaylevel() {
+        return this.t2highestdaylevel;
+    }
+    
+    public void Setting.setT2highestdaylevel(Integer t2highestdaylevel) {
+        this.t2highestdaylevel = t2highestdaylevel;
+    }
+    
+    public Integer Setting.getT3highestdaylevel() {
+        return this.t3highestdaylevel;
+    }
+    
+    public void Setting.setT3highestdaylevel(Integer t3highestdaylevel) {
+        this.t3highestdaylevel = t3highestdaylevel;
+    }
+    
+    public Integer Setting.getT4highestdaylevel() {
+        return this.t4highestdaylevel;
+    }
+    
+    public void Setting.setT4highestdaylevel(Integer t4highestdaylevel) {
+        this.t4highestdaylevel = t4highestdaylevel;
+    }
+    
+    public Integer Setting.getT1highestlevel() {
+        return this.t1highestlevel;
+    }
+    
+    public void Setting.setT1highestlevel(Integer t1highestlevel) {
+        this.t1highestlevel = t1highestlevel;
+    }
+    
+    public Integer Setting.getT2highestlevel() {
+        return this.t2highestlevel;
+    }
+    
+    public void Setting.setT2highestlevel(Integer t2highestlevel) {
+        this.t2highestlevel = t2highestlevel;
+    }
+    
+    public Integer Setting.getT3highestlevel() {
+        return this.t3highestlevel;
+    }
+    
+    public void Setting.setT3highestlevel(Integer t3highestlevel) {
+        this.t3highestlevel = t3highestlevel;
+    }
+    
+    public Integer Setting.getT4highestlevel() {
+        return this.t4highestlevel;
+    }
+    
+    public void Setting.setT4highestlevel(Integer t4highestlevel) {
+        this.t4highestlevel = t4highestlevel;
+    }
+    
+    public Integer Setting.getT1highestdaystep() {
+        return this.t1highestdaystep;
+    }
+    
+    public void Setting.setT1highestdaystep(Integer t1highestdaystep) {
+        this.t1highestdaystep = t1highestdaystep;
+    }
+    
+    public Integer Setting.getT2highestdaystep() {
+        return this.t2highestdaystep;
+    }
+    
+    public void Setting.setT2highestdaystep(Integer t2highestdaystep) {
+        this.t2highestdaystep = t2highestdaystep;
+    }
+    
+    public Integer Setting.getT3highestdaystep() {
+        return this.t3highestdaystep;
+    }
+    
+    public void Setting.setT3highestdaystep(Integer t3highestdaystep) {
+        this.t3highestdaystep = t3highestdaystep;
+    }
+    
+    public Integer Setting.getT4highestdaystep() {
+        return this.t4highestdaystep;
+    }
+    
+    public void Setting.setT4highestdaystep(Integer t4highestdaystep) {
+        this.t4highestdaystep = t4highestdaystep;
+    }
+    
+    public Integer Setting.getT1higheststep() {
+        return this.t1higheststep;
+    }
+    
+    public void Setting.setT1higheststep(Integer t1higheststep) {
+        this.t1higheststep = t1higheststep;
+    }
+    
+    public Integer Setting.getT2higheststep() {
+        return this.t2higheststep;
+    }
+    
+    public void Setting.setT2higheststep(Integer t2higheststep) {
+        this.t2higheststep = t2higheststep;
+    }
+    
+    public Integer Setting.getT3higheststep() {
+        return this.t3higheststep;
+    }
+    
+    public void Setting.setT3higheststep(Integer t3higheststep) {
+        this.t3higheststep = t3higheststep;
+    }
+    
+    public Integer Setting.getT4higheststep() {
+        return this.t4higheststep;
+    }
+    
+    public void Setting.setT4higheststep(Integer t4higheststep) {
+        this.t4higheststep = t4higheststep;
+    }
+    
+    public Integer Setting.getT1prestime() {
+        return this.t1prestime;
+    }
+    
+    public void Setting.setT1prestime(Integer t1prestime) {
+        this.t1prestime = t1prestime;
+    }
+    
+    public Integer Setting.getT2prestime() {
+        return this.t2prestime;
+    }
+    
+    public void Setting.setT2prestime(Integer t2prestime) {
+        this.t2prestime = t2prestime;
+    }
+    
+    public Integer Setting.getT3prestime() {
+        return this.t3prestime;
+    }
+    
+    public void Setting.setT3prestime(Integer t3prestime) {
+        this.t3prestime = t3prestime;
+    }
+    
+    public Integer Setting.getT4prestime() {
+        return this.t4prestime;
+    }
+    
+    public void Setting.setT4prestime(Integer t4prestime) {
+        this.t4prestime = t4prestime;
+    }
+    
 }

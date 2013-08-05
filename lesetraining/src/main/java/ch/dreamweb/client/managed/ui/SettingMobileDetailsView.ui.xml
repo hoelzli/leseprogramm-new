@@ -13,19 +13,238 @@
   </ui:style>
 
   <g:HTMLPanel debugId="boundElementHolder" styleName="{style.outer}">
-    <div id="id">
+    
+    
+    
+
+    <g:Button ui:field="delete">Delete</g:Button>
+  <div id="id">
             <div class="{style.label}">Id</div>
             <div class="{style.value}" ui:field="id"/>
         </div>
-    <div id="login">
+        <div id="login">
             <div class="{style.label}">Login</div>
             <div class="{style.value}" ui:field="login"/>
         </div>
-    <div id="version">
+        <div id="password">
+            <div class="{style.label}">Password</div>
+            <div class="{style.value}" ui:field="password"/>
+        </div>
+        <div id="testday">
+            <div class="{style.label}">Testday</div>
+            <div class="{style.value}" ui:field="testday"/>
+        </div>
+        <div id="testnumber">
+            <div class="{style.label}">Testnumber</div>
+            <div class="{style.value}" ui:field="testnumber"/>
+        </div>
+        <div id="testround">
+            <div class="{style.label}">Testround</div>
+            <div class="{style.value}" ui:field="testround"/>
+        </div>
+        <div id="schoolclass">
+            <div class="{style.label}">Schoolclass</div>
+            <div class="{style.value}" ui:field="schoolclass"/>
+        </div>
+        <div id="soundfiletype">
+            <div class="{style.label}">Soundfiletype</div>
+            <div class="{style.value}" ui:field="soundfiletype"/>
+        </div>
+        <div id="test1record">
+            <div class="{style.label}">Test1record</div>
+            <div class="{style.value}" ui:field="test1record"/>
+        </div>
+        <div id="test2record">
+            <div class="{style.label}">Test2record</div>
+            <div class="{style.value}" ui:field="test2record"/>
+        </div>
+        <div id="test3record">
+            <div class="{style.label}">Test3record</div>
+            <div class="{style.value}" ui:field="test3record"/>
+        </div>
+        <div id="test4record">
+            <div class="{style.label}">Test4record</div>
+            <div class="{style.value}" ui:field="test4record"/>
+        </div>
+        <div id="test5record">
+            <div class="{style.label}">Test5record</div>
+            <div class="{style.value}" ui:field="test5record"/>
+        </div>
+        <div id="test6record">
+            <div class="{style.label}">Test6record</div>
+            <div class="{style.value}" ui:field="test6record"/>
+        </div>
+        <div id="enabletest">
+            <div class="{style.label}">Enabletest</div>
+            <div class="{style.value}" ui:field="enabletest"/>
+        </div>
+        <div id="enabletraining">
+            <div class="{style.label}">Enabletraining</div>
+            <div class="{style.value}" ui:field="enabletraining"/>
+        </div>
+        <div id="t1done">
+            <div class="{style.label}">T1done</div>
+            <div class="{style.value}" ui:field="t1done"/>
+        </div>
+        <div id="t2done">
+            <div class="{style.label}">T2done</div>
+            <div class="{style.value}" ui:field="t2done"/>
+        </div>
+        <div id="t3done">
+            <div class="{style.label}">T3done</div>
+            <div class="{style.value}" ui:field="t3done"/>
+        </div>
+        <div id="t4done">
+            <div class="{style.label}">T4done</div>
+            <div class="{style.value}" ui:field="t4done"/>
+        </div>
+        <div id="t1tottime">
+            <div class="{style.label}">T1tottime</div>
+            <div class="{style.value}" ui:field="t1tottime"/>
+        </div>
+        <div id="t2tottime">
+            <div class="{style.label}">T2tottime</div>
+            <div class="{style.value}" ui:field="t2tottime"/>
+        </div>
+        <div id="t3tottime">
+            <div class="{style.label}">T3tottime</div>
+            <div class="{style.value}" ui:field="t3tottime"/>
+        </div>
+        <div id="t4tottime">
+            <div class="{style.label}">T4tottime</div>
+            <div class="{style.value}" ui:field="t4tottime"/>
+        </div>
+        <div id="t1stepsperlevel">
+            <div class="{style.label}">T1stepsperlevel</div>
+            <div class="{style.value}" ui:field="t1stepsperlevel"/>
+        </div>
+        <div id="t2stepsperlevel">
+            <div class="{style.label}">T2stepsperlevel</div>
+            <div class="{style.value}" ui:field="t2stepsperlevel"/>
+        </div>
+        <div id="t3stepsperlevel">
+            <div class="{style.label}">T3stepsperlevel</div>
+            <div class="{style.value}" ui:field="t3stepsperlevel"/>
+        </div>
+        <div id="t4stepsperlevel">
+            <div class="{style.label}">T4stepsperlevel</div>
+            <div class="{style.value}" ui:field="t4stepsperlevel"/>
+        </div>
+        <div id="t1level">
+            <div class="{style.label}">T1level</div>
+            <div class="{style.value}" ui:field="t1level"/>
+        </div>
+        <div id="t2level">
+            <div class="{style.label}">T2level</div>
+            <div class="{style.value}" ui:field="t2level"/>
+        </div>
+        <div id="t3level">
+            <div class="{style.label}">T3level</div>
+            <div class="{style.value}" ui:field="t3level"/>
+        </div>
+        <div id="t4level">
+            <div class="{style.label}">T4level</div>
+            <div class="{style.value}" ui:field="t4level"/>
+        </div>
+        <div id="t1step">
+            <div class="{style.label}">T1step</div>
+            <div class="{style.value}" ui:field="t1step"/>
+        </div>
+        <div id="t2step">
+            <div class="{style.label}">T2step</div>
+            <div class="{style.value}" ui:field="t2step"/>
+        </div>
+        <div id="t3step">
+            <div class="{style.label}">T3step</div>
+            <div class="{style.value}" ui:field="t3step"/>
+        </div>
+        <div id="t4step">
+            <div class="{style.label}">T4step</div>
+            <div class="{style.value}" ui:field="t4step"/>
+        </div>
+        <div id="t1highestdaylevel">
+            <div class="{style.label}">T1highestdaylevel</div>
+            <div class="{style.value}" ui:field="t1highestdaylevel"/>
+        </div>
+        <div id="t2highestdaylevel">
+            <div class="{style.label}">T2highestdaylevel</div>
+            <div class="{style.value}" ui:field="t2highestdaylevel"/>
+        </div>
+        <div id="t3highestdaylevel">
+            <div class="{style.label}">T3highestdaylevel</div>
+            <div class="{style.value}" ui:field="t3highestdaylevel"/>
+        </div>
+        <div id="t4highestdaylevel">
+            <div class="{style.label}">T4highestdaylevel</div>
+            <div class="{style.value}" ui:field="t4highestdaylevel"/>
+        </div>
+        <div id="t1highestlevel">
+            <div class="{style.label}">T1highestlevel</div>
+            <div class="{style.value}" ui:field="t1highestlevel"/>
+        </div>
+        <div id="t2highestlevel">
+            <div class="{style.label}">T2highestlevel</div>
+            <div class="{style.value}" ui:field="t2highestlevel"/>
+        </div>
+        <div id="t3highestlevel">
+            <div class="{style.label}">T3highestlevel</div>
+            <div class="{style.value}" ui:field="t3highestlevel"/>
+        </div>
+        <div id="t4highestlevel">
+            <div class="{style.label}">T4highestlevel</div>
+            <div class="{style.value}" ui:field="t4highestlevel"/>
+        </div>
+        <div id="t1highestdaystep">
+            <div class="{style.label}">T1highestdaystep</div>
+            <div class="{style.value}" ui:field="t1highestdaystep"/>
+        </div>
+        <div id="t2highestdaystep">
+            <div class="{style.label}">T2highestdaystep</div>
+            <div class="{style.value}" ui:field="t2highestdaystep"/>
+        </div>
+        <div id="t3highestdaystep">
+            <div class="{style.label}">T3highestdaystep</div>
+            <div class="{style.value}" ui:field="t3highestdaystep"/>
+        </div>
+        <div id="t4highestdaystep">
+            <div class="{style.label}">T4highestdaystep</div>
+            <div class="{style.value}" ui:field="t4highestdaystep"/>
+        </div>
+        <div id="t1higheststep">
+            <div class="{style.label}">T1higheststep</div>
+            <div class="{style.value}" ui:field="t1higheststep"/>
+        </div>
+        <div id="t2higheststep">
+            <div class="{style.label}">T2higheststep</div>
+            <div class="{style.value}" ui:field="t2higheststep"/>
+        </div>
+        <div id="t3higheststep">
+            <div class="{style.label}">T3higheststep</div>
+            <div class="{style.value}" ui:field="t3higheststep"/>
+        </div>
+        <div id="t4higheststep">
+            <div class="{style.label}">T4higheststep</div>
+            <div class="{style.value}" ui:field="t4higheststep"/>
+        </div>
+        <div id="t1prestime">
+            <div class="{style.label}">T1prestime</div>
+            <div class="{style.value}" ui:field="t1prestime"/>
+        </div>
+        <div id="t2prestime">
+            <div class="{style.label}">T2prestime</div>
+            <div class="{style.value}" ui:field="t2prestime"/>
+        </div>
+        <div id="t3prestime">
+            <div class="{style.label}">T3prestime</div>
+            <div class="{style.value}" ui:field="t3prestime"/>
+        </div>
+        <div id="t4prestime">
+            <div class="{style.label}">T4prestime</div>
+            <div class="{style.value}" ui:field="t4prestime"/>
+        </div>
+        <div id="version">
             <div class="{style.label}">Version</div>
             <div class="{style.value}" ui:field="version"/>
         </div>
-
-    <g:Button ui:field="delete">Delete</g:Button>
-  </g:HTMLPanel>
+    </g:HTMLPanel>
 </ui:UiBinder>
