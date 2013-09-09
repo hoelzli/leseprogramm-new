@@ -41,3 +41,11 @@ hint
 help
 web gwt all --proxyPackage ~.client.proxy --requestPackage ~.client.request
 web mvc all --package ~.web
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-08-06 00:39:53
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-08-08 23:55:22
+hint
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-08-09 00:17:55
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-09-07 23:07:02
+web gwt all --proxyPackage ~.client.proxy --requestPackage ~.client.request
+web mvc all --package ~.web
+hint

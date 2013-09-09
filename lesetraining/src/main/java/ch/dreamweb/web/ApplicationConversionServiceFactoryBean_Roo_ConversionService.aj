@@ -5,6 +5,7 @@ package ch.dreamweb.web;
 
 import ch.dreamweb.domain.Setting;
 import ch.dreamweb.domain.Statistic;
+import ch.dreamweb.domain.TestStatistic;
 import ch.dreamweb.web.ApplicationConversionServiceFactoryBean;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.core.convert.converter.Converter;
@@ -62,6 +63,30 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         };
     }
     
+    public Converter<TestStatistic, String> ApplicationConversionServiceFactoryBean.getTestStatisticToStringConverter() {
+        return new org.springframework.core.convert.converter.Converter<ch.dreamweb.domain.TestStatistic, java.lang.String>() {
+            public String convert(TestStatistic testStatistic) {
+                return new StringBuilder().append(testStatistic.getLogin()).append(' ').append(testStatistic.getDatetime()).append(' ').append(testStatistic.getTest()).append(' ').append(testStatistic.getTestround()).toString();
+            }
+        };
+    }
+    
+    public Converter<Long, TestStatistic> ApplicationConversionServiceFactoryBean.getIdToTestStatisticConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.Long, ch.dreamweb.domain.TestStatistic>() {
+            public ch.dreamweb.domain.TestStatistic convert(java.lang.Long id) {
+                return TestStatistic.findTestStatistic(id);
+            }
+        };
+    }
+    
+    public Converter<String, TestStatistic> ApplicationConversionServiceFactoryBean.getStringToTestStatisticConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.String, ch.dreamweb.domain.TestStatistic>() {
+            public ch.dreamweb.domain.TestStatistic convert(String id) {
+                return getObject().convert(getObject().convert(id, Long.class), TestStatistic.class);
+            }
+        };
+    }
+    
     public void ApplicationConversionServiceFactoryBean.installLabelConverters(FormatterRegistry registry) {
         registry.addConverter(getSettingToStringConverter());
         registry.addConverter(getIdToSettingConverter());
@@ -69,6 +94,9 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         registry.addConverter(getStatisticToStringConverter());
         registry.addConverter(getIdToStatisticConverter());
         registry.addConverter(getStringToStatisticConverter());
+        registry.addConverter(getTestStatisticToStringConverter());
+        registry.addConverter(getIdToTestStatisticConverter());
+        registry.addConverter(getStringToTestStatisticConverter());
     }
     
     public void ApplicationConversionServiceFactoryBean.afterPropertiesSet() {

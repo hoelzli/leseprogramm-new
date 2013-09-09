@@ -8,8 +8,11 @@ import ch.dreamweb.client.managed.ui.SettingListView;
 import ch.dreamweb.client.managed.ui.SettingMobileListView;
 import ch.dreamweb.client.managed.ui.StatisticListView;
 import ch.dreamweb.client.managed.ui.StatisticMobileListView;
+import ch.dreamweb.client.managed.ui.TestStatisticListView;
+import ch.dreamweb.client.managed.ui.TestStatisticMobileListView;
 import ch.dreamweb.client.proxy.SettingProxy;
 import ch.dreamweb.client.proxy.StatisticProxy;
+import ch.dreamweb.client.proxy.TestStatisticProxy;
 import ch.dreamweb.client.scaffold.ScaffoldApp;
 import ch.dreamweb.client.scaffold.place.ProxyListPlace;
 import com.google.gwt.activity.shared.Activity;
@@ -39,6 +42,11 @@ public abstract class ApplicationMasterActivities_Roo_Gwt implements ActivityMap
             @Override
             public void handleStatistic(StatisticProxy isNull) {
                 setResult(new StatisticListActivity(requests, ScaffoldApp.isMobile() ? StatisticMobileListView.instance() : StatisticListView.instance(), placeController));
+            }
+
+            @Override
+            public void handleTestStatistic(TestStatisticProxy isNull) {
+                setResult(new TestStatisticListActivity(requests, ScaffoldApp.isMobile() ? TestStatisticMobileListView.instance() : TestStatisticListView.instance(), placeController));
             }
         }.process(listPlace.getProxyClass());
     }

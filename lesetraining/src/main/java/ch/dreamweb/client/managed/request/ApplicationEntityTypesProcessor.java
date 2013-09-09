@@ -4,6 +4,7 @@ package ch.dreamweb.client.managed.request;
 
 import ch.dreamweb.client.proxy.SettingProxy;
 import ch.dreamweb.client.proxy.StatisticProxy;
+import ch.dreamweb.client.proxy.TestStatisticProxy;
 import com.google.web.bindery.requestfactory.shared.EntityProxy;
 import java.util.Collections;
 import java.util.HashSet;
@@ -27,6 +28,7 @@ public abstract class ApplicationEntityTypesProcessor<T> {
         Set<Class<? extends EntityProxy>> rtn = new HashSet<Class<? extends EntityProxy>>();
         rtn.add(SettingProxy.class);
         rtn.add(StatisticProxy.class);
+        rtn.add(TestStatisticProxy.class);
         return Collections.unmodifiableSet(rtn);
     }
 
@@ -37,6 +39,10 @@ public abstract class ApplicationEntityTypesProcessor<T> {
         }
         if (StatisticProxy.class.equals(clazz)) {
             processor.handleStatistic((StatisticProxy) null);
+            return;
+        }
+        if (TestStatisticProxy.class.equals(clazz)) {
+            processor.handleTestStatistic((TestStatisticProxy) null);
             return;
         }
         processor.handleNonProxy(null);
@@ -51,6 +57,10 @@ public abstract class ApplicationEntityTypesProcessor<T> {
             processor.handleStatistic((StatisticProxy) proxy);
             return;
         }
+        if (proxy instanceof TestStatisticProxy) {
+            processor.handleTestStatistic((TestStatisticProxy) proxy);
+            return;
+        }
         processor.handleNonProxy(proxy);
     }
 
@@ -60,6 +70,8 @@ public abstract class ApplicationEntityTypesProcessor<T> {
     public abstract void handleSetting(SettingProxy proxy);
 
     public abstract void handleStatistic(StatisticProxy proxy);
+
+    public abstract void handleTestStatistic(TestStatisticProxy proxy);
 
     public T process(Class<?> clazz) {
         setResult(defaultValue);

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ch_dreamweb_domain_TestStatistic" modelAttribute="testStatistic" path="/teststatistics" versionField="Version" z="V6RxkdjTnLOJhFBGxfE7a+yS2PE=">
+        <field:input field="login" id="c_ch_dreamweb_domain_TestStatistic_login" z="6w36FhFpSeoV9Ydp46hhvmEguj0="/>
+        <field:datetime dateTimePattern="${testStatistic_datetime_date_format}" field="datetime" id="c_ch_dreamweb_domain_TestStatistic_datetime" z="NIUy7RG7E7B9iXJE+LiQOeSvlt4="/>
+        <field:input field="history" id="c_ch_dreamweb_domain_TestStatistic_history" z="d3qUnFQ217dbyBeu+2YjB/7QacI="/>
+        <field:input field="test" id="c_ch_dreamweb_domain_TestStatistic_test" validationMessageCode="field_invalid_integer" z="TgO8qHnj08Pw9ThNsUOS/YG6I14="/>
+        <field:input field="testround" id="c_ch_dreamweb_domain_TestStatistic_testround" validationMessageCode="field_invalid_integer" z="xjyWzGJ10A8DgMuLnl/4BW0dUJA="/>
+        <field:input field="spanscore" id="c_ch_dreamweb_domain_TestStatistic_spanscore" validationMessageCode="field_invalid_integer" z="SFfoSXoiXNTJYDB/GA/JoKBsL8Q="/>
+        <field:input field="trialscore" id="c_ch_dreamweb_domain_TestStatistic_trialscore" validationMessageCode="field_invalid_integer" z="Scp+1bkTxPPOqQ6zOkbLAz4s1ao="/>
+        <field:input field="trialscore_version" id="c_ch_dreamweb_domain_TestStatistic_trialscore_version" validationMessageCode="field_invalid_integer" z="2Tq4cwwUSb30f+2GSWXtXR/KjWs="/>
+    </form:update>
+</div>

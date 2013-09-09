@@ -9,4 +9,4 @@ make sure you have added jdk to eclipse.ini/sts.ini: -vm C:\Program Files\Java\j
 try it on leseprogramm-new.appspot.com/ApplicationScaffold.html
 make sure eclipse datanucleus and auto-enhancer is enabled for project or run "datanucleus enhancer setting"
 run mvn gwt:run, but do not launch url, then run as google web app on a different port (otherwise spring-web is not available for some strange reason)
-	
+if you get ERROR 500, check http://vivagwt.blogspot.ch/2011/09/requestfactory-en-gwt-24.html	

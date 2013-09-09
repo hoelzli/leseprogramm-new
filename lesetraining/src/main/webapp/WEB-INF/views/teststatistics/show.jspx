@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ch_dreamweb_domain_TestStatistic" object="${teststatistic}" path="/teststatistics" z="xMFTSm3mwqlwzMqvXwJX37qTM5Q=">
+        <field:display field="login" id="s_ch_dreamweb_domain_TestStatistic_login" object="${teststatistic}" z="cyyxGF1CE1LKv5bTkYii6lSCgFM="/>
+        <field:display date="true" dateTimePattern="${testStatistic_datetime_date_format}" field="datetime" id="s_ch_dreamweb_domain_TestStatistic_datetime" object="${teststatistic}" z="lippj2A3G6GNiOqstr4KwIqbxBI="/>
+        <field:display field="history" id="s_ch_dreamweb_domain_TestStatistic_history" object="${teststatistic}" z="BZhRuTvLflW/yu3qgJQrSas4EjA="/>
+        <field:display field="test" id="s_ch_dreamweb_domain_TestStatistic_test" object="${teststatistic}" z="Jc1QMPsNsa0IcxcoxIODtlTfSbE="/>
+        <field:display field="testround" id="s_ch_dreamweb_domain_TestStatistic_testround" object="${teststatistic}" z="fElDMHjftaGg2F/MTtuIZdavbwQ="/>
+        <field:display field="spanscore" id="s_ch_dreamweb_domain_TestStatistic_spanscore" object="${teststatistic}" z="1l1gToG/LPGZZCLFbsZYLHn7YbY="/>
+        <field:display field="trialscore" id="s_ch_dreamweb_domain_TestStatistic_trialscore" object="${teststatistic}" z="wvgwiOV0rz04/iUEL6JXEeevvq4="/>
+        <field:display field="trialscore_version" id="s_ch_dreamweb_domain_TestStatistic_trialscore_version" object="${teststatistic}" z="77nGkFQ9ZJjFujRCh2e0s+rzxnk="/>
+    </page:show>
+</div>

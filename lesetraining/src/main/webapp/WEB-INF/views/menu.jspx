@@ -14,5 +14,9 @@
             <menu:item id="i_statistic_new" messageCode="global_menu_new" url="/statistics?form" z="NewfoNXppce+/C8CDsnawOsCwKE="/>
             <menu:item id="i_statistic_list" messageCode="global_menu_list" url="/statistics?page=1&amp;size=${empty param.size ? 10 : param.size}" z="pdLaFPFin1Ze9/cAde476S3eZq0="/>
         </menu:category>
+        <menu:category id="c_teststatistic" z="T9cw2tXKyj7VDJGExL5JB5N7Dt8=">
+            <menu:item id="i_teststatistic_new" messageCode="global_menu_new" url="/teststatistics?form" z="ohYk0G0+/PCY6IHTnUhJEYrMKho="/>
+            <menu:item id="i_teststatistic_list" messageCode="global_menu_list" url="/teststatistics?page=1&amp;size=${empty param.size ? 10 : param.size}" z="/WqazkIkCwrBV+escTy5F+mXgR0="/>
+        </menu:category>
     </menu:menu>
 </div>

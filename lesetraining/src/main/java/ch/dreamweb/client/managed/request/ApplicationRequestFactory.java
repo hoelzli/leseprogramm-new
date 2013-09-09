@@ -4,6 +4,7 @@ package ch.dreamweb.client.managed.request;
 
 import ch.dreamweb.client.request.SettingRequest;
 import ch.dreamweb.client.request.StatisticRequest;
+import ch.dreamweb.client.request.TestStatisticRequest;
 import ch.dreamweb.shared.gae.MakesGaeRequests;
 import ch.dreamweb.shared.scaffold.ScaffoldRequestFactory;
 
@@ -12,4 +13,6 @@ public interface ApplicationRequestFactory extends ScaffoldRequestFactory, Makes
     SettingRequest settingRequest();
 
     StatisticRequest statisticRequest();
+
+    TestStatisticRequest testStatisticRequest();
 }

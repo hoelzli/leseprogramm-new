@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ch_dreamweb_domain_TestStatistic" items="${teststatistics}" z="qdYQVFvyM/bU5qZxlKTxUVE0YIs=">
+        <table:table data="${teststatistics}" id="l_ch_dreamweb_domain_TestStatistic" path="/teststatistics" z="4w0T9mQLTlTz4uD9a0YZ2eieafw=">
+            <table:column id="c_ch_dreamweb_domain_TestStatistic_login" property="login" z="qjJaUrrByWqdj6EMsgXnDXiS3+Y="/>
+            <table:column date="true" dateTimePattern="${testStatistic_datetime_date_format}" id="c_ch_dreamweb_domain_TestStatistic_datetime" property="datetime" z="GBsvJVrO/JPS90SPdMCfxeRQ2Kk="/>
+            <table:column id="c_ch_dreamweb_domain_TestStatistic_test" property="test" z="3MG7vkNS8g8yNb7wggkLkFjvAtE="/>
+            <table:column id="c_ch_dreamweb_domain_TestStatistic_testround" property="testround" z="2x1tK3DrI5N6zCh5SFxQRzpOBUE="/>
+            <table:column id="c_ch_dreamweb_domain_TestStatistic_spanscore" property="spanscore" z="yuBrVGaW+WqJ+4SKW5wkYVALVsA="/>
+            <table:column id="c_ch_dreamweb_domain_TestStatistic_trialscore" property="trialscore" z="pSdITUNpvfAKf7LY/vXR6nRFiok="/>
+        </table:table>
+    </page:list>
+</div>
